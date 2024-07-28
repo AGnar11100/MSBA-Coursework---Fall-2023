@@ -1,0 +1,5334 @@
+WEBVTT
+
+1
+00:00:00.520 --> 00:00:01.769
+It out.
+
+2
+00:00:02.200 --> 00:00:03.330
+Sridhar Nomula: Okay?
+
+3
+00:00:03.560 --> 00:00:07.210
+Sridhar Nomula: Um: So yeah, any questions So far,
+
+4
+00:00:10.360 --> 00:00:11.470
+Sridhar Nomula: he,
+
+5
+00:00:12.270 --> 00:00:21.020
+Sridhar Nomula: the mission of your hand is still up. So just making sure you have any question, or it's up from the previous time that you put it up.
+
+6
+00:00:24.320 --> 00:00:26.180
+Sridhar Nomula: Okay. No. No problem.
+
+7
+00:00:26.590 --> 00:00:28.200
+Sridhar Nomula: And there,
+
+8
+00:00:28.730 --> 00:00:43.320
+Sridhar Nomula: Yeah. So today's session, how we will start is any questions that you might have from the previous class, or any quick homework questions that I can address. I will address those, and then we will jump into the lecture.
+
+9
+00:00:43.330 --> 00:00:53.850
+Sridhar Nomula: Yeah. And the second part of the session We will go into the lab, and you know any questions that you might have technical questions. I can answer those
+
+10
+00:00:54.180 --> 00:00:55.280
+Sridhar Nomula: It's
+
+11
+00:00:57.090 --> 00:01:03.509
+Sridhar Nomula: so. Any questions of how to begin with questions from the last class or any homework questions.
+
+12
+00:01:04.739 --> 00:01:21.799
+Ajith Narasimha: So you mentioned, we need to add one function, at least in the assignment, even input is a function. So what do you mean by the user-defined? Function Not any built-in function? But you, when you're writing your code,
+
+13
+00:01:21.850 --> 00:01:28.780
+put your code in at least one function, and you are calling that function. I want to see that you are calling that function.
+
+14
+00:01:28.790 --> 00:01:29.690
+Sridhar Nomula: It's a
+
+15
+00:01:31.160 --> 00:01:33.189
+Ajith Narasimha: Did I answer your questions up? Thank you.
+
+16
+00:01:33.200 --> 00:01:34.889
+Ajith Narasimha: Yes, sir, thank you.
+
+17
+00:01:34.900 --> 00:01:36.039
+Ah,
+
+18
+00:01:41.230 --> 00:01:42.960
+JIANG LIU(za6417): i'm sure.
+
+19
+00:01:42.970 --> 00:01:49.649
+Siraj Abbasi: Yes, I have a question so about homework. So we have to take the user input And
+
+20
+00:01:49.660 --> 00:02:00.570
+JIANG LIU(za6417): let's say we have to utilize the employee. I think it's a great, because let me
+
+21
+00:02:02.310 --> 00:02:05.929
+JIANG LIU(za6417): uh. So my question is, some will include
+
+22
+00:02:05.940 --> 00:02:08.100
+JIANG LIU(za6417): has to be integer.
+
+23
+00:02:08.120 --> 00:02:18.640
+JIANG LIU(za6417): So do we have to address the um. You know we only allows the the user to put an integer Here do we have to address this part?
+
+24
+00:02:18.900 --> 00:02:31.390
+JIANG LIU(za6417): Let's say, if you enter one to three, that you know the user for, give us a string or give us the number of five.
+
+25
+00:02:31.400 --> 00:02:32.350
+Yeah.
+
+26
+00:02:32.450 --> 00:02:46.559
+Sridhar Nomula: So for any error scenario, it would. I did not mention explicitly, because, you know, this is the first assignment, you know. I I want you to all to get up to speed. So
+
+27
+00:02:46.570 --> 00:02:53.390
+Sridhar Nomula: to address any error scenarios, if you can just print out that it is not a valid input. I will take that.
+
+28
+00:02:53.400 --> 00:03:07.830
+JIANG LIU(za6417): No, that should be fine. You don't have to do any a try catch except the block. Anything like that. But just put a put it output that just printing that it's not. A
+
+29
+00:03:07.840 --> 00:03:21.149
+JIANG LIU(za6417): let's say, for I think a grade level. If they enter non-numeric characters, one, two, if they enter, Abc. Then just print it out that it's not a valid. Input,
+
+30
+00:03:21.370 --> 00:03:22.700
+JIANG LIU(za6417): Got it.
+
+31
+00:03:22.710 --> 00:03:42.589
+JIANG LIU(za6417): And uh, also another question you ask of the screenshot for for every um result. So do you do. I have to run like different comments. I can teach them a different rate and keep a number, and to try and
+
+32
+00:03:42.600 --> 00:03:48.989
+JIANG LIU(za6417): right, I want to see the output for all the different combinations. Yeah,
+
+33
+00:03:49.000 --> 00:03:50.720
+JIANG LIU(za6417): Got it? Thank you.
+
+34
+00:03:54.750 --> 00:03:57.090
+JIANG LIU(za6417): Any other questions. He has scared again.
+
+35
+00:03:57.100 --> 00:03:59.790
+Karthikeyan Velusamy ( NF4606): Yeah. So this is a follow up question from previous one,
+
+36
+00:03:59.800 --> 00:04:00.290
+like
+
+37
+00:04:09.100 --> 00:04:13.299
+Karthikeyan Velusamy ( NF4606): like the number of Oklahoma, cannot be more than you know. Five days.
+
+38
+00:04:14.240 --> 00:04:17.550
+Sridhar Nomula: So you're calculating for the whole week.
+
+39
+00:04:17.560 --> 00:04:25.790
+Karthikeyan Velusamy ( NF4606): Yes, the maximum open hours are forty hours. Anything more than forty hours becomes over time hours.
+
+40
+00:04:25.800 --> 00:04:29.159
+Karthikeyan Velusamy ( NF4606): Yeah. The only time it's it's up to the right. We should be a limit to.
+
+41
+00:04:29.450 --> 00:04:38.949
+Sridhar Nomula: Yeah, that's okay. No need to, you know, because this is not a real-time scenario. So you are not really checking, you know, if someone is working one hundred and twenty hours per day.
+
+42
+00:04:38.960 --> 00:04:54.959
+Karthikeyan Velusamy ( NF4606): In any case, that's not possible. But you know, just for the entire class, forty hours is the maximum anything over. Then forty hours is over time, and there are some employees who are over time eligible. Then you need to calculate the pay according to that
+
+43
+00:04:54.970 --> 00:05:04.930
+Sridhar Nomula: over time payment, and no need to going back to your question. Don't need to check, you know. If there is a maximum limit in it. There is no maximum limit in this homework assignment.
+
+44
+00:05:14.950 --> 00:05:16.900
+Sridhar Nomula: So in the school
+
+45
+00:05:16.910 --> 00:05:31.519
+Sridhar Nomula: who are eligible who are not eligible for extra working hours. Um, yeah, they are just getting paid. They are getting paid still for the entire hours, but their over time pay is not extra
+
+46
+00:05:31.850 --> 00:05:34.030
+Karthikeyan Velusamy ( NF4606): just to do a mirror.
+
+47
+00:05:34.040 --> 00:05:35.710
+Karthikeyan Velusamy ( NF4606): We can just simply win the two
+
+48
+00:05:36.720 --> 00:05:37.890
+Karthikeyan Velusamy ( NF4606): next to us.
+
+49
+00:05:38.690 --> 00:05:49.989
+Sridhar Nomula: No need to omit. Omit the extra work. That's what i'm trying to say. Maybe I was not seeing here in that homework text. So if it's more than forty hours, then they are not getting
+
+50
+00:05:50.000 --> 00:06:04.419
+Sridhar Nomula: sorry. Yeah, you're correct. Yeah, if it's a more than forty hours. Then they are not getting paid for that more than forty hours. They are only getting paid for forty hours, but if they are eligible for the overtime pay. Then they are getting over time,
+
+51
+00:06:16.770 --> 00:06:18.790
+Siraj Abbasi: or where did you submit it?
+
+52
+00:06:20.400 --> 00:06:27.219
+Sridhar Nomula: Let me show my view, and i'm not sure it will be exactly like.
+
+53
+00:06:27.450 --> 00:06:30.259
+Sridhar Nomula: Be worse by tear.
+
+54
+00:06:30.790 --> 00:06:35.399
+Sridhar Nomula: Let me just direct something at least uh something. I can show
+
+55
+00:06:35.480 --> 00:06:36.740
+Sridhar Nomula: it's
+
+56
+00:06:42.160 --> 00:06:46.919
+Sridhar Nomula: so. If you go to this, call your course on the blackboard
+
+57
+00:06:47.160 --> 00:06:49.910
+Sridhar Nomula: in the course of materials.
+
+58
+00:06:51.620 --> 00:06:55.769
+Sridhar Nomula: By the way, is this clearly visible, or is it too small, too big?
+
+59
+00:06:58.080 --> 00:07:00.789
+Siraj Abbasi: It's very well, sir.
+
+60
+00:07:00.800 --> 00:07:06.570
+Anton Zyarko: Good thanks for that confirmation. So in the course materials you will see homework one
+
+61
+00:07:06.680 --> 00:07:08.670
+Sridhar Nomula: I'm. Somewhere here.
+
+62
+00:07:12.150 --> 00:07:22.989
+Sridhar Nomula: So you will see homework one, and when you I don't, I don't know exactly how the student view will look like. But when you go in here there should be a way to submit your homework. One:
+
+63
+00:07:23.000 --> 00:07:26.410
+Siraj Abbasi: Yeah, no, it works. I didn't realize you could click on that.
+
+64
+00:07:26.420 --> 00:07:29.100
+Siraj Abbasi: Thank you. All right.
+
+65
+00:07:29.110 --> 00:07:31.639
+Siraj Abbasi: Any other question.
+
+66
+00:07:39.340 --> 00:07:40.410
+Sridhar Nomula: Okay?
+
+67
+00:07:40.710 --> 00:07:43.290
+JIANG LIU(za6417): Oh, sorry. I have a last question.
+
+68
+00:07:43.300 --> 00:07:48.690
+JIANG LIU(za6417): Yes, um. I think I could catch it. So when you mentioned all the time.
+
+69
+00:08:01.640 --> 00:08:20.490
+JIANG LIU(za6417): But he's the ah, he's he or she's the ah get forty hour pay here or one year or forty hours pay. So that's what the all your question was. Ah, forty hours pay. Okay. So because those are non-exempt employees that means they don't get over Time paid,
+
+70
+00:08:20.500 --> 00:08:38.980
+JIANG LIU(za6417): and their salary is high. Their salary is already high. If you're looking at the manager, level or principal level employees, that's all missed out is already high, so they get it's included in the itself. It's usually so. Sometimes they work over time. Sometimes they don't work over time, but
+
+71
+00:08:39.020 --> 00:08:48.620
+JIANG LIU(za6417): at the lower level, you know, entry level positions, They say, Okay, that's out is already low. But if they work any over time, then they get paid over time.
+
+72
+00:08:49.320 --> 00:08:49.990
+Sridhar Nomula: Okay,
+
+73
+00:08:50.000 --> 00:08:53.339
+JIANG LIU(za6417): Okay, I see.
+
+74
+00:08:54.540 --> 00:09:05.790
+kavyavempati: Yes, Kappa. Yes. And by the way, reminder to everyone, please put your zoom name uh as your student name that way, you know, I can track your attendance in the zoom. Okay,
+
+75
+00:09:06.150 --> 00:09:07.810
+Sridhar Nomula: yes, up here.
+
+76
+00:09:14.160 --> 00:09:17.019
+Sridhar Nomula: You can ask your question if you are speaking.
+
+77
+00:09:29.230 --> 00:09:32.459
+Bhargav: No, her, Mike. This might be a propaganda.
+
+78
+00:09:34.340 --> 00:09:35.450
+kavyavempati: Okay,
+
+79
+00:09:36.100 --> 00:09:39.799
+Sridhar Nomula: maybe even tiger question for moving in the chat window,
+
+80
+00:09:40.710 --> 00:09:46.069
+kavyavempati: and I can move on to the next to store. And while the Cov is typing the question.
+
+81
+00:09:51.770 --> 00:09:53.699
+Let me go to my chat window.
+
+82
+00:09:59.290 --> 00:10:00.450
+It's
+
+83
+00:10:01.200 --> 00:10:02.650
+Bala Surya Teja Nandamuri(wv7708): there's been an
+
+84
+00:10:06.310 --> 00:10:09.040
+Sridhar Nomula: okay. What else? Any other questions,
+
+85
+00:10:09.430 --> 00:10:10.520
+Bala Surya Teja Nandamuri(wv7708): hey?
+
+86
+00:10:12.510 --> 00:10:17.490
+Sridhar Nomula: All right. I would like to move on with more questions and
+
+87
+00:10:17.500 --> 00:10:23.750
+Sridhar Nomula: um feel free to interrupt anytime and ask your questions. Um, if you have any questions
+
+88
+00:10:26.750 --> 00:10:28.589
+one second.
+
+89
+00:10:28.600 --> 00:10:41.549
+Sridhar Nomula: Okay. So you know, last class we covered. We started from the basics Right? What is quite on? What is the environment? By the way, I suddenly had a question when I said, Environment,
+
+90
+00:10:41.720 --> 00:10:55.169
+kavyavempati: Does everyone have their environment set up? Do they have Anakunda environment? Do they have python directly installed on their environment? Can they directly run the python from the command Prompt.
+
+91
+00:11:00.860 --> 00:11:02.080
+Sridhar Nomula: Okay,
+
+92
+00:11:06.160 --> 00:11:15.599
+Sridhar Nomula: Because you should be able to run your homework one and show those screenshots right? So make sure you have your environment ready Um,
+
+93
+00:11:15.960 --> 00:11:19.729
+kavyavempati: that day, you know, you can run your homework,
+
+94
+00:11:20.560 --> 00:11:27.899
+Sridhar Nomula: and which for Jeth had a question how many scenarios that are? Input We have to try for taking screenshots,
+
+95
+00:11:27.980 --> 00:11:37.789
+Sridhar Nomula: all the scenarios in that table in the homework, right just to try the scenarios. Just all the positive scenarios. I will make sure to run your code for the negative scenarios.
+
+96
+00:11:37.800 --> 00:11:50.989
+Sridhar Nomula: Okay, So there we should try, for I see employee grade and level one. I see. Employ grade level three manager, one like that
+
+97
+00:11:52.710 --> 00:11:53.990
+Sridhar Nomula: he?
+
+98
+00:12:07.630 --> 00:12:17.600
+Sridhar Nomula: Okay? So we were talking about the last class. So we covered the basics of the python, and we slowly jumped into.
+
+99
+00:12:17.710 --> 00:12:32.890
+Sridhar Nomula: You know what is the basic components of the python, some of the keywords. Then we also looked into the conditional statements. You know how to use the conditions. Then you also learn the functions, the parameters arguments.
+
+100
+00:12:33.970 --> 00:12:37.600
+Sridhar Nomula: Um. What is the difference between parameter and argument?
+
+101
+00:12:44.820 --> 00:12:47.910
+JIANG LIU(za6417): The argument we passed through with the function?
+
+102
+00:12:48.120 --> 00:12:50.240
+madhu sudhan reddy puppala: The parameters is the
+
+103
+00:12:50.260 --> 00:12:51.349
+madhu sudhan reddy puppala: Tell me.
+
+104
+00:12:53.650 --> 00:12:55.400
+Sridhar Nomula: Okay, that's correct.
+
+105
+00:12:55.630 --> 00:12:56.740
+Sridhar Nomula: He's.
+
+106
+00:12:57.550 --> 00:13:03.219
+Sridhar Nomula: Um: So yeah, that's correct. So let me increase my screen.
+
+107
+00:13:03.430 --> 00:13:18.130
+Sridhar Nomula: Yeah. So parameters is when you define the function, you define the parameters. How many parameters, what type of parameter all those things! But when you're calling the function, you pass, some value,
+
+108
+00:13:18.140 --> 00:13:25.259
+Srilekha Rao Kanneganti: some other variable value, or some constant value that becomes an argument to the function. Yeah,
+
+109
+00:13:25.270 --> 00:13:27.200
+Sridhar Nomula: those are the key differences.
+
+110
+00:13:27.740 --> 00:13:37.019
+Sridhar Nomula: So now, what we are going to get into is the Chapter five. We are going to get into the loops and iterations. Okay,
+
+111
+00:13:37.340 --> 00:13:46.539
+Sridhar Nomula: So loves and iterations comes into the picture. Ah, in your program, you know, you already learn how to put the conditional statements that meant
+
+112
+00:13:47.880 --> 00:13:50.250
+Sridhar Nomula: the scenarios like this. If
+
+113
+00:13:50.470 --> 00:13:53.040
+Sridhar Nomula: the condition is like this, then do something,
+
+114
+00:13:53.060 --> 00:14:06.960
+Sridhar Nomula: or if it is not like that, then do something else. Or if none of that matches, then do some other thing. Yeah, that's what conditional statement is conditional statements. They may get executed. They may not get the executive
+
+115
+00:14:06.970 --> 00:14:14.810
+Sridhar Nomula: based on your runtime environment. How that environment is based on that the condition gets executed right?
+
+116
+00:14:17.470 --> 00:14:20.980
+Sridhar Nomula: So in Lobes lobes is basefully.
+
+117
+00:14:21.070 --> 00:14:23.749
+Sridhar Nomula: If there is a repetitive task.
+
+118
+00:14:35.510 --> 00:14:41.540
+Sridhar Nomula: So in your program, if there are repeated steps that you want to do continuously, continuously
+
+119
+00:14:47.120 --> 00:14:57.860
+Sridhar Nomula: what's happening here? There is a first variable assignment n equals five, right? That means this variable Got a value five.
+
+120
+00:14:57.960 --> 00:15:03.710
+Sridhar Nomula: Remember, last time we talked about variables. Also, what what does variable means here?
+
+121
+00:15:12.800 --> 00:15:16.099
+Sridhar Nomula: Can anyone throw some light on what does variable means here?
+
+122
+00:15:16.340 --> 00:15:19.190
+Mahnoor Tahir: Your data, basically
+
+123
+00:15:19.200 --> 00:15:22.110
+Bhargav: location of the address will be restored in the later
+
+124
+00:15:22.120 --> 00:15:23.560
+Bhargav: name to them.
+
+125
+00:15:24.190 --> 00:15:26.709
+Sridhar Nomula: Name to the location. Yes,
+
+126
+00:15:27.170 --> 00:15:38.809
+Mahnoor Tahir: and somebody else said I missed that person's response. Barga said something more than it was me, sir. I said that it's where you store your data, basically the location?
+
+127
+00:15:38.820 --> 00:15:41.089
+Bhargav: Yeah. And as a rest of them. Yeah,
+
+128
+00:15:42.640 --> 00:15:52.880
+Bhargav: right? Exactly. So remember what is that? Where is that address? Exactly. In the entire system computer system. Where is that address?
+
+129
+00:15:59.500 --> 00:16:02.590
+Akshat Verma: It's in the memory. Yeah,
+
+130
+00:16:02.600 --> 00:16:04.709
+Jani Pasha Mohammed: is it in the hard drive or memory?
+
+131
+00:16:04.920 --> 00:16:05.990
+Jani Pasha Mohammed: Three
+
+132
+00:16:06.000 --> 00:16:17.970
+Srilekha Rao Kanneganti: memory? Yeah. So whenever a program runs in the computer. So let's say I, I define my program right. So maybe this program I give this as
+
+133
+00:16:18.030 --> 00:16:25.009
+Sridhar Nomula: my program, my first program, Dot P. One. That's a file, you know. I saved that file on A. C. It right somewhere it.
+
+134
+00:16:25.530 --> 00:16:39.299
+Sridhar Nomula: Where is that sitting? That file? That file is sitting in my hard drive. That's where the file storage is. But let's say when i'm running, and i'm saying, python three space. My first
+
+135
+00:16:39.720 --> 00:16:48.819
+Sridhar Nomula: program dot k by, and then what happens is the program runs in the operating system, and then
+
+136
+00:16:48.990 --> 00:16:53.600
+Sridhar Nomula: then it allocates some memory to the program. Then it uses the memory now,
+
+137
+00:16:53.620 --> 00:17:07.870
+Sridhar Nomula: right. And when the program dies, when the program ends that memory is lost. So while this is running now, the program is saying, I want this variable name N. Which is some address in the memory
+
+138
+00:17:07.880 --> 00:17:24.049
+Sridhar Nomula: and assign a value of five. So going to that memory, it is ah assigning that value five in the computer. It's nothing but some zero one zero, one one, one zero, zero, something like that. It's all bits right. It's all bits.
+
+139
+00:17:24.290 --> 00:17:34.159
+Sridhar Nomula: So in the computer it starts like that. But here in the program, what you are saying is n equals five. Right then. That means you store this value of five somewhere.
+
+140
+00:17:34.180 --> 00:17:37.609
+Sridhar Nomula: Then you have this condition.
+
+141
+00:17:37.660 --> 00:17:43.770
+Sridhar Nomula: Um. For any lobes there is a condition to enter most of the loads. There is a condition to
+
+142
+00:17:43.780 --> 00:17:56.189
+Sridhar Nomula: enter. So here in this scenario we are saying, while n greater than zero, that means until n is greater than zero.
+
+143
+00:17:56.290 --> 00:18:02.190
+Sridhar Nomula: Do some action again. Remember when there is a block of code.
+
+144
+00:18:13.200 --> 00:18:15.269
+Sridhar Nomula: What is this here? Exactly.
+
+145
+00:18:17.360 --> 00:18:18.690
+JIANG LIU(za6417): A commercial
+
+146
+00:18:18.700 --> 00:18:21.590
+Mahnoor Tahir: okay
+
+147
+00:18:31.490 --> 00:18:33.419
+Yashavanth Shivapura Prabhudev: belongs to the wide loop.
+
+148
+00:18:38.370 --> 00:18:47.770
+Sridhar Nomula: Okay, if you don't put this inientation here, then the sprint is outside the while so, while end or right there, there is nothing involved.
+
+149
+00:18:59.060 --> 00:19:07.069
+Sridhar Nomula: Yeah. So in this while Loop, what's happening is It's just printing N. And then decreasing the n value.
+
+150
+00:19:16.230 --> 00:19:21.860
+Surya Sai Dinesh Addanki: Yes. Okay. So yeah, in Java, if you wanted to
+
+151
+00:19:21.870 --> 00:19:43.220
+Sridhar Nomula: increase or decrease a variable value, you can just say like this n minus or n plus that that notation is there in Java, but in Python there is no such notation in Python. You would have to explicitly say n equals n minus one. That means you are decreasing n value by one
+
+152
+00:19:43.670 --> 00:19:49.820
+Karthikeyan Velusamy ( NF4606): you keep going. So at one point this n value becomes zero.
+
+153
+00:19:50.570 --> 00:19:54.299
+Sridhar Nomula: Then that's when this while loop breaks. Yeah.
+
+154
+00:19:55.250 --> 00:20:14.920
+Sridhar Nomula: So usually when you are writing a repeated step in a loop, there is a iterator. You know that you based on that iterator. Your loop is based right? So your iterator value is that is n based on the N. You are loping through right two.
+
+155
+00:20:16.200 --> 00:20:26.119
+Sridhar Nomula: Let's say, if you write this while loop, but you do n one, then this becomes an infinite look. You never exit the slope it keeps printing in.
+
+156
+00:20:27.750 --> 00:20:47.319
+Sridhar Nomula: So first time, when you are programming loops. That is a common scenario where you make some mistake in the globe, and that lope never gets exited, so it becomes an infinite Look, for example, here in this scenario again, same thing n equals five, while n greater than zero,
+
+157
+00:20:47.330 --> 00:20:58.090
+Sridhar Nomula: and i'm not doing anything with this N. I'm. Neither increment in decreasing. Now this n never becomes zero or less than zero.
+
+158
+00:20:59.300 --> 00:21:08.480
+Sridhar Nomula: So this condition becomes always true, and this keeps going. Yeah. So this is an infinite loop. This keeps going. So
+
+159
+00:21:14.810 --> 00:21:20.180
+Sridhar Nomula: So, looking at this loop again, we start with n equals to zero,
+
+160
+00:21:21.470 --> 00:21:34.809
+Sridhar Nomula: and then same thing. This loop is exactly the same thing more than we have seen earlier. Um, you know we are not doing anything with the N. So in the earlier case this becomes an infinite load.
+
+161
+00:21:35.080 --> 00:21:37.900
+Sridhar Nomula: Then what happens here in this scenario
+
+162
+00:21:38.210 --> 00:21:40.669
+Sridhar Nomula: in this wildlife. What happens?
+
+163
+00:21:42.520 --> 00:21:44.550
+Bhargav: It'll drink dryer.
+
+164
+00:21:45.180 --> 00:21:52.690
+Anton Zyarko: It will train to dry up. Can anyone else tell me Why so? Why doesn't it.
+
+165
+00:21:54.140 --> 00:21:55.690
+Yashavanth Shivapura Prabhudev: I mean,
+
+166
+00:21:55.700 --> 00:21:58.460
+Yashavanth Shivapura Prabhudev: it is
+
+167
+00:21:58.500 --> 00:22:02.090
+Bhargav: Yeah. So this condition never gets a satisfied
+
+168
+00:22:02.100 --> 00:22:05.249
+Yashavanth Shivapura Prabhudev: right? So it never enters into the loop,
+
+169
+00:22:05.820 --> 00:22:11.289
+Sridhar Nomula: so it never prints anything within the loop, but only this master statement,
+
+170
+00:22:12.910 --> 00:22:23.609
+Sridhar Nomula: and there is a way to break out of the loop. So what we have seen earlier is we have a condition until this loop is right. So with this condition
+
+171
+00:22:23.910 --> 00:22:32.580
+Sridhar Nomula: there is, there is a time until this slope is goods. There are, you know, defined number of steps, and that is all based on this
+
+172
+00:22:32.770 --> 00:22:34.600
+Sridhar Nomula: iterator, variable.
+
+173
+00:22:35.450 --> 00:22:36.880
+Sridhar Nomula: But
+
+174
+00:22:36.890 --> 00:22:44.790
+Sridhar Nomula: there is a way to break from the loop, you know. So, for example, here in this one, while a true and a true isn't it
+
+175
+00:22:44.900 --> 00:22:46.260
+Sridhar Nomula: here
+
+176
+00:22:56.850 --> 00:23:14.710
+Sridhar Nomula: again, going back to this. What's happening is when I say n greater than zero, that means it is a returning a logical statement. That means it is returning your Boolean right. So this becomes while or true, you know,
+
+177
+00:23:14.720 --> 00:23:27.689
+Sridhar Nomula: in the beginning this becomes true. So every reputation of this step. If you look at this flow chart every reputation on the steps it, it determines that a logical value. What is the bullion? Is it true or false?
+
+178
+00:23:27.700 --> 00:23:33.919
+Sridhar Nomula: Right? It would true, only then it enters so same thing here in this while Loop.
+
+179
+00:23:35.400 --> 00:23:54.339
+Sridhar Nomula: Now you are saying while true, so you don't have any condition, you are directly saying, always true. So this always enters into the loop, and every iteration it becomes true. But how do you break out of the loop. That is, you can simply say break when it breaks the blue.
+
+180
+00:23:54.350 --> 00:23:59.870
+Sridhar Nomula: But if you save, break for the first time, then it just breaks right there.
+
+181
+00:23:59.960 --> 00:24:16.179
+Sridhar Nomula: Usually, when you put a break when there is a condition that is happening, for example, here, when the line equals done, that means there is an input coming in and in that input, if the line equals done, then you break
+
+182
+00:24:16.930 --> 00:24:28.659
+Sridhar Nomula: alright, Otherwise you print that line. Whatever is entered by the user you print that line. And then this is the end of the loop that you are printing done right? So
+
+183
+00:24:28.670 --> 00:24:36.110
+Sridhar Nomula: here, as long as the user is inputing something, it is printing. And when the user says done, then this is,
+
+184
+00:24:42.540 --> 00:24:49.010
+Sridhar Nomula: Yeah. So the break statement, What it does is it ends the lobe and it directly jumps out of the loop.
+
+185
+00:24:49.390 --> 00:25:08.269
+Sridhar Nomula: So let's say, you know, in your loop you have a break statement here, but even after that you have like one line, ten lines, or one hundred lines. It's not going to execute any of those lines. It's not even going to go there. It immediately breaks that iteration.
+
+186
+00:25:08.280 --> 00:25:10.469
+Sridhar Nomula: And then Jems out of the loop.
+
+187
+00:25:11.030 --> 00:25:13.110
+Sridhar Nomula: That's what delivery does.
+
+188
+00:25:26.510 --> 00:25:36.939
+Sridhar Nomula: There is something called. Continue also, whenever you are writing loops there may be a scenario where you wanted to continue. What does the continuous statement does it?
+
+189
+00:25:42.200 --> 00:25:42.790
+Sridhar Nomula: Yeah.
+
+190
+00:25:42.800 --> 00:25:50.250
+Sridhar Nomula: So here again, same thing we have a while. True, That means it always enters this loop,
+
+191
+00:25:50.460 --> 00:25:58.180
+kavyavempati: and then you'll have some statements here. Um, if line equals um.
+
+192
+00:25:58.300 --> 00:26:14.420
+Sridhar Nomula: If the line is zero, I will explain Actually, when we go into the string. Then I will explain how this line Zero is working. But what this line is, this line of code? What this is doing is It's checking it. The first character is found.
+
+193
+00:26:14.920 --> 00:26:22.340
+Sridhar Nomula: The first character is palm, then it is ignoring. It is not doing anything. So that's why. Now it is saying, Continue
+
+194
+00:26:22.460 --> 00:26:33.809
+Sridhar Nomula: okay. So in the earlier example, when we have seen if the line it folks to done, we had a break. That means user input is done. Now, I need to break this low.
+
+195
+00:26:33.900 --> 00:26:52.659
+Sridhar Nomula: So coming here now, they want to ignore some common statements. Yeah, And the common statement starts later, hash or pound assign. So that's why we say, Ah, if, for example, if you see this one user did, an input. Has a pound sign, Don't print this
+
+196
+00:26:59.410 --> 00:27:07.629
+Sridhar Nomula: when you say continue. It finishes this iteration. It's almost like saying, break, but it doesn't break the look, so
+
+197
+00:27:07.880 --> 00:27:11.870
+Sridhar Nomula: it breaks the situation and goes to the next declaration.
+
+198
+00:27:11.970 --> 00:27:15.730
+I if you, if you go back to the
+
+199
+00:27:16.280 --> 00:27:19.179
+Sridhar Nomula: if you go back to any of these floor charts.
+
+200
+00:27:19.330 --> 00:27:20.510
+Sridhar Nomula: So
+
+201
+00:27:20.900 --> 00:27:31.009
+Sridhar Nomula: if I say, continue here, it breaks this, and it doesn't go all the way to the print done. Then it goes to the again. This logical condition then comes into the low,
+
+202
+00:27:31.670 --> 00:27:34.369
+Sridhar Nomula: So that's what the engineer does.
+
+203
+00:27:36.270 --> 00:27:37.810
+Sridhar Nomula: Yeah, it's over
+
+204
+00:27:38.060 --> 00:27:44.260
+Sridhar Nomula: Same thing. You know what I was explaining, so it breaks from that. Then directly goes to the beginning of the lobe.
+
+205
+00:27:51.550 --> 00:28:11.479
+Sridhar Nomula: So there is something about indefinite loops that means they can keep on going. Yeah, they can keep on going, and that's the examples that we have seen. That is, it is entering with a true statement. That means it always enters, and there is no iterator to check. You know there is no condition to check.
+
+206
+00:28:11.490 --> 00:28:16.600
+Sridhar Nomula: So the example that we have seen. So while it true, that means it always enters the loop.
+
+207
+00:28:16.740 --> 00:28:22.460
+Sridhar Nomula: And how do you break? Based on some logical condition? You break that low.
+
+208
+00:28:26.260 --> 00:28:27.670
+Sridhar Nomula: And
+
+209
+00:28:27.750 --> 00:28:46.510
+Sridhar Nomula: with this type of lobes you you have to make sure that you know the condition happens. That's how the low break. Otherwise, if the condition never happens, then it keeps continuing. So, for example, if we say here, if the user. Never types done
+
+210
+00:28:46.520 --> 00:28:54.260
+Sridhar Nomula: so, what's happening in this program is, it is taking an input from the user you know, If you say input,
+
+211
+00:28:54.320 --> 00:29:07.760
+Sridhar Nomula: input, it's just putting some character in the beginning, and then it's taking the input, If the user doesn't put done, if they keep typing something, it keeps printing that all the time, then user cannot exit out of it.
+
+212
+00:29:07.770 --> 00:29:08.710
+Sridhar Nomula: Yeah,
+
+213
+00:29:08.800 --> 00:29:11.689
+Sridhar Nomula: unless they type done statement.
+
+214
+00:29:11.700 --> 00:29:26.600
+Sridhar Nomula: So that's the Those are the, you know, indefinite loops, or in finite loops. So make sure that condition happens, especially when you are trying to write it. Loops like that. Yeah.
+
+215
+00:29:33.010 --> 00:29:34.040
+Sridhar Nomula: Okay,
+
+216
+00:29:35.870 --> 00:29:40.340
+Sridhar Nomula: then, the definite loops are, you know you have
+
+217
+00:29:55.420 --> 00:30:10.140
+Sridhar Nomula: right? So those are the definite loops. For example, we have a list of items. List of items means an array, you know, an array. It has some some elements in that array. So you go through that elements,
+
+218
+00:30:10.150 --> 00:30:25.259
+Sridhar Nomula: and that's it. After the end of that error, Then that globe is finished, or let's say you are rating through a file. You go through each line, and once that end of the file reaches that said, your loop has ended.
+
+219
+00:30:25.280 --> 00:30:32.760
+Sridhar Nomula: So that's how the definite loops works, so it's pretty defined. You know what are your iterations?
+
+220
+00:30:39.260 --> 00:30:46.530
+Sridhar Nomula: So these loops are called definite loops, because they have a certain number of times that they can go through.
+
+221
+00:30:50.660 --> 00:30:57.769
+Sridhar Nomula: This is a simple statement of you know how these definite loops works. For example, if you see here
+
+222
+00:30:58.310 --> 00:31:02.439
+Sridhar Nomula: I in and this whole thing is given
+
+223
+00:31:02.460 --> 00:31:17.729
+Sridhar Nomula: when we go to, I think a next chapter. We will talk more about lists, you know. We will start uncovering different collections. Ah, data structures in Python. It's a very powerful
+
+224
+00:31:17.770 --> 00:31:33.299
+Sridhar Nomula: and very easy to use, you know, unlike other programming languages. So you learn more about arrays or lists in the next chapter next class. But here, what's happening is it is saying, for I in
+
+225
+00:31:40.520 --> 00:31:50.120
+Sridhar Nomula: and what happens here is now you are saying this slope just iterate through every element of this
+
+226
+00:31:50.240 --> 00:31:53.240
+Sridhar Nomula: object or a structure.
+
+227
+00:31:53.410 --> 00:31:55.960
+Sridhar Nomula: So it goes through every index,
+
+228
+00:31:56.950 --> 00:32:01.209
+Sridhar Nomula: and by the time it reaches this last one the date ends.
+
+229
+00:32:01.560 --> 00:32:20.380
+Sridhar Nomula: After this election is completed, then the loop is done right there. So what's happening in this one? Inside the slope Again, there is an increased indentation that means this line is inside this for low, then it is just printing that I
+
+230
+00:32:27.580 --> 00:32:33.169
+Sridhar Nomula: value. Yeah. So for the first iteration I becomes five,
+
+231
+00:32:33.600 --> 00:32:37.620
+Sridhar Nomula: then the second iteration. When it comes here I becomes four.
+
+232
+00:32:38.370 --> 00:32:54.990
+Sridhar Nomula: Then it becomes three, two, one, yeah. So that's how it trains. Five, four, three, two, one, and once the loop ends. Then it prints this last statement. So this is out of the for loop. Then it brings this last statement.
+
+233
+00:32:55.470 --> 00:32:56.540
+Sridhar Nomula: It's:
+
+234
+00:33:03.490 --> 00:33:05.889
+Sridhar Nomula: Yeah, you have a question
+
+235
+00:33:07.360 --> 00:33:09.970
+Bhargav: uh is the filling go to slide, for example.
+
+236
+00:33:10.750 --> 00:33:20.830
+Bhargav: So this data will be like, I'm: not familiar with Microsoft. So video basically, in general, if you prepare Allen to build the new line,
+
+237
+00:33:20.840 --> 00:33:24.409
+Bhargav: so this data will be printed side by side, right output,
+
+238
+00:33:31.790 --> 00:33:38.099
+Bhargav: you know. So print is nothing but like in Java system
+
+239
+00:33:38.260 --> 00:33:40.180
+Bhargav: what they said. Yeah,
+
+240
+00:33:43.920 --> 00:33:45.860
+Bhargav: Okay, Um,
+
+241
+00:33:46.580 --> 00:33:58.189
+Sridhar Nomula: yeah. So this is like iterating through a list iterating through a list of strings. Yeah. So very similar to what we have seen.
+
+242
+00:33:58.290 --> 00:34:01.420
+Sridhar Nomula: And here these are the list, of,
+
+243
+00:34:01.480 --> 00:34:02.879
+Sridhar Nomula: of course,
+
+244
+00:34:02.990 --> 00:34:07.400
+Sridhar Nomula: uh integers. But here these are the list of strings,
+
+245
+00:34:07.440 --> 00:34:10.759
+Sridhar Nomula: but the concept is same. You can still say
+
+246
+00:34:11.190 --> 00:34:23.289
+Sridhar Nomula: um, for so your list name is. If you go back to the earlier one you'll define your list dynamically right here in that line, right?
+
+247
+00:34:24.210 --> 00:34:36.340
+Sridhar Nomula: And in this example. Now you are defining ahead of time. You are saying, you have a variable friends, and for this, friends, variable, you are saying, this is a list,
+
+248
+00:34:36.350 --> 00:34:40.080
+Sridhar Nomula: and its elements are string elements. Yeah,
+
+249
+00:34:40.330 --> 00:34:42.520
+Sridhar Nomula: the first element is Joseph.
+
+250
+00:34:42.780 --> 00:34:56.610
+Sridhar Nomula: Second element is Glenn total minutes. Sally like that right now you want to iterate through this place. How do you do the same concept earlier. We did, for I in that entire list.
+
+251
+00:34:56.860 --> 00:35:15.020
+Sridhar Nomula: Now you are giving some other name. It doesn't matter what name you are giving, you are just using that same name inside. So in this line, what we are saying is for friend in friends, right? You have defined this variable friends already all here in the previous line.
+
+252
+00:35:15.230 --> 00:35:28.560
+Sridhar Nomula: Now you are saying for a friend in friends, don't get confused looking at these names. This is exactly like saying, for I in yeah instead of I. Now i'm saying,
+
+253
+00:35:30.510 --> 00:35:49.529
+Sridhar Nomula: Now I can use this variable friend inside this for for loop, right? So when i'm doing this printed statement, What i'm doing. I'm doing this printed statement, and with a string i'm saying, Happy New here, and then comma, and then,
+
+254
+00:35:49.540 --> 00:36:08.189
+Sridhar Nomula: and referring this variable which works only inside the problem when you come out of the Forlow after this entire iteration is done. If you say, friend, it doesn't work now at this line at this highlighted line. There is no friend. Friend is gone now.
+
+255
+00:36:09.340 --> 00:36:11.620
+Sridhar Nomula: So just remembered that
+
+256
+00:36:11.630 --> 00:36:13.000
+Sridhar Nomula: yes or she,
+
+257
+00:36:17.530 --> 00:36:19.399
+Sridhar Nomula: they have no question. You are muttering,
+
+258
+00:36:22.620 --> 00:36:25.089
+Sridhar Nomula: Yes, sir. Hello! Am I ordering?
+
+259
+00:36:25.230 --> 00:36:31.109
+Arushi Aesha th7090: So? My question is uh that in the print. Come on when we are writing Happy New Year, and then there is a coded.
+
+260
+00:36:31.180 --> 00:36:36.330
+Sridhar Nomula: I just wanted to know whether is that a part of syntax or like that is a statement.
+
+261
+00:36:36.650 --> 00:36:37.890
+Sridhar Nomula: Very good.
+
+262
+00:36:37.900 --> 00:36:45.579
+Sridhar Nomula: Yeah. So remember, last class I was explaining this function. This print is nothing but an inbuilt function.
+
+263
+00:36:45.590 --> 00:36:46.389
+Sridhar Nomula: Don't: You
+
+264
+00:36:46.400 --> 00:36:50.379
+Sridhar Nomula: and this print function can take multiple arguments.
+
+265
+00:36:50.760 --> 00:37:09.650
+Sridhar Nomula: Okay, it can take multiple arguments. There is a way to do that, so it can take zero arguments, one argument, two or minus three arguments. However, it may be right. So you can say so. What this print function does is how many of a number of
+
+266
+00:37:09.660 --> 00:37:13.500
+Sridhar Nomula: uh arguments that you put? So, for example,
+
+267
+00:37:13.770 --> 00:37:15.569
+Sridhar Nomula: for the
+
+268
+00:37:15.620 --> 00:37:17.850
+Sridhar Nomula: And now I put another one.
+
+269
+00:37:18.330 --> 00:37:20.119
+Sridhar Nomula: How are you?
+
+270
+00:37:20.320 --> 00:37:28.560
+Sridhar Nomula: All right? Yes, what this print function does Is it concatenates all these variables together and friends that together?
+
+271
+00:37:28.570 --> 00:37:36.049
+Sridhar Nomula: Yes, so. So my question is that this colon is part of syntax. So like this is a statement. This is a statement. Spot happen New York,
+
+272
+00:37:36.520 --> 00:37:55.479
+Sridhar Nomula: this one this column. No, No, this is part of the string. If you see we'll cover strings in next section. So anything within the colon's becomes a string. Strings are represented either in single quotes. Sorry. Are not Colon Codes strings are represented
+
+273
+00:37:55.490 --> 00:37:58.259
+Sridhar Nomula: either in single codes or double codes.
+
+274
+00:37:58.770 --> 00:38:00.789
+Sridhar Nomula: Okay, sir, thank you.
+
+275
+00:38:05.360 --> 00:38:19.990
+Mahnoor Tahir: So my question over here is that we first described friends in the first line, that this is what friends it. But in the second line, how is the program actually figuring out what friend is
+
+276
+00:38:20.600 --> 00:38:40.029
+Mahnoor Tahir: right. So let me go back to previous example. Did you understand this one when I said, for I in five, four, three to one. Did you understand this statement? How is I? Okay, No problem. So what happens in this definite lobes?
+
+277
+00:38:40.040 --> 00:38:43.730
+Sridhar Nomula: You say so. If you look at this,
+
+278
+00:38:43.920 --> 00:38:47.470
+Sridhar Nomula: this is an iterable object. That means
+
+279
+00:39:06.720 --> 00:39:08.000
+Sridhar Nomula: it's
+
+280
+00:39:16.510 --> 00:39:18.569
+Sridhar Nomula: hopefully, this is visible.
+
+281
+00:39:22.900 --> 00:39:25.359
+Sridhar Nomula: So this is list
+
+282
+00:39:26.130 --> 00:39:29.449
+Sridhar Nomula: my python. Right now I have
+
+283
+00:39:30.830 --> 00:39:33.189
+Sridhar Nomula: all these different elements.
+
+284
+00:39:33.200 --> 00:39:43.310
+Sridhar Nomula: Okay. And uh, when I set for I in. That means for the first iteration I is here
+
+285
+00:39:43.790 --> 00:39:44.970
+Sridhar Nomula: it's.
+
+286
+00:39:45.290 --> 00:39:49.430
+Sridhar Nomula: And this this is where my I is. Okay,
+
+287
+00:39:49.920 --> 00:39:56.689
+Sridhar Nomula: this is five first iteration. When this for iteration is done. This I moves on the
+
+288
+00:39:58.330 --> 00:40:00.290
+Sridhar Nomula: next a detection
+
+289
+00:40:01.550 --> 00:40:07.509
+Sridhar Nomula: in the next iteration. This is four, Now I becomes
+
+290
+00:40:07.850 --> 00:40:08.869
+Sridhar Nomula: it's, it's it's, it's it's, it's, it's, it's it's, it's, it's, it's it's, it's, it's, it's
+
+291
+00:40:09.500 --> 00:40:11.180
+Sridhar Nomula: so on, and so forth.
+
+292
+00:40:12.080 --> 00:40:15.069
+Sridhar Nomula: Then it moves, on to the next one
+
+293
+00:40:15.300 --> 00:40:18.320
+Sridhar Nomula: now I is three. This is done.
+
+294
+00:40:18.420 --> 00:40:27.210
+Sridhar Nomula: Okay. So this is exactly the same thing. What's happening here in this global. So let me get to that.
+
+295
+00:40:27.220 --> 00:40:30.549
+Sridhar Nomula: Yeah. So in this one again. Same thing is happening.
+
+296
+00:40:30.600 --> 00:40:31.859
+Sridhar Nomula: It's
+
+297
+00:40:33.250 --> 00:40:35.359
+Sridhar Nomula: I get the same thing I have this.
+
+298
+00:40:36.240 --> 00:40:40.969
+Sridhar Nomula: This is again the list right? This is again this I have
+
+299
+00:40:41.480 --> 00:40:49.259
+Sridhar Nomula: for simplicity. Say, I don't have much drawing skills, so i'll just put Jg: as like that.
+
+300
+00:40:49.330 --> 00:40:51.510
+Sridhar Nomula: There is nothing here. Okay.
+
+301
+00:40:51.860 --> 00:40:55.890
+Sridhar Nomula: Now, when I said friend in threatens,
+
+302
+00:40:56.250 --> 00:41:05.630
+Sridhar Nomula: imagine. Go back to the previous globe I had I, instead of I am saying, friend, Okay. So now this friend is a
+
+303
+00:41:06.100 --> 00:41:09.919
+Sridhar Nomula: new variable, which is only exist inside this low.
+
+304
+00:41:10.490 --> 00:41:12.390
+Sridhar Nomula: Now this friend,
+
+305
+00:41:15.160 --> 00:41:17.489
+Sridhar Nomula: this friend, is a variable,
+
+306
+00:41:17.730 --> 00:41:21.359
+this friend. With the first iteration it points to
+
+307
+00:41:23.050 --> 00:41:26.639
+Sridhar Nomula: Joseph. Now a friend has the value, Joseph
+
+308
+00:41:26.650 --> 00:41:32.549
+Sridhar Nomula: right, and the first iteration is done, then second iteration find the most to
+
+309
+00:41:33.020 --> 00:41:36.949
+Sridhar Nomula: Glen. Now, friend has the value of glen,
+
+310
+00:41:37.220 --> 00:41:38.779
+Sridhar Nomula: and then
+
+311
+00:41:38.890 --> 00:41:48.789
+Sridhar Nomula: the second iteration is done, then it moves to the third iteration. Now, friend of value is Sally right? And inside that low you,
+
+312
+00:41:48.800 --> 00:42:02.289
+Sridhar Nomula: you are doing some exhibition statements. All you are saying is happy, new! Your friend now, friend, has, you know, all these different values in each iteration? That's the power of the loops right,
+
+313
+00:42:02.300 --> 00:42:22.079
+Sridhar Nomula: you know, although they are repeating steps, but they may behave differently in each iteration. Right? So this trend has a different value in each iteration, and every time It's printing some different names. So it's printing happening. Your Joseph.
+
+314
+00:42:22.090 --> 00:42:25.790
+Sridhar Nomula: Uh, did I? Was I able to answer your question?
+
+315
+00:42:25.800 --> 00:42:27.990
+Mahnoor Tahir: Yes, thank you. Okay,
+
+316
+00:42:28.060 --> 00:42:29.859
+Mahnoor Tahir: Yes, my the soda
+
+317
+00:42:30.650 --> 00:42:33.229
+madhu sudhan reddy puppala: uh
+
+318
+00:42:38.680 --> 00:42:41.500
+madhu sudhan reddy puppala: F. R. I. A. And N. Not friends.
+
+319
+00:42:41.610 --> 00:42:42.720
+Sridhar Nomula: It's
+
+320
+00:42:44.020 --> 00:42:46.290
+madhu sudhan reddy puppala: uh generally to I.
+
+321
+00:42:51.670 --> 00:43:02.790
+Sridhar Nomula: But in this case we need not to define. Yeah, you don't need to define. I hear your question. You don't need to define. Yeah. So this becomes
+
+322
+00:43:03.010 --> 00:43:13.120
+Sridhar Nomula: it automatically defines, and it ends out of that for loop. So it's the scope of friend is only till the exhibition of the for loop.
+
+323
+00:43:14.230 --> 00:43:24.090
+Sridhar Nomula: But if you have defined this friend before you should, you can define this friend before. Yeah, you can say that. But
+
+324
+00:43:24.110 --> 00:43:29.929
+Sridhar Nomula: let's say, you know, in the beginning of this you say, friend,
+
+325
+00:43:32.300 --> 00:43:32.890
+Sridhar Nomula: Okay,
+
+326
+00:43:32.900 --> 00:43:36.040
+Sridhar Nomula: your friend equals
+
+327
+00:43:36.270 --> 00:43:48.489
+Sridhar Nomula: none in python. You can assign a null value as none. So that means print is a variable, it has nothing. There is no value in that,
+
+328
+00:43:48.500 --> 00:44:03.629
+Sridhar Nomula: not even an empty string. It has nothing in there, right, and when you finish this slope, then after that the friend still exists, and it will have something, you know. Whatever is the last execution, it will have that.
+
+329
+00:44:04.170 --> 00:44:09.799
+Sridhar Nomula: Okay. But otherwise, if you do not define this,
+
+330
+00:44:10.690 --> 00:44:16.199
+Sridhar Nomula: If you do not define this, then the friend that doesn't exist after the furlough.
+
+331
+00:44:24.830 --> 00:44:26.020
+Sridhar Nomula: Okay,
+
+332
+00:44:27.330 --> 00:44:41.219
+Sridhar Nomula: yeah. So going back to looking at definite loops, they they have defined a set of iterations based on the element that it is iterating through.
+
+333
+00:44:41.670 --> 00:44:49.990
+Sridhar Nomula: So if you are it writing through a list of which has a you know, defined length, it's only going to iterate that many times
+
+334
+00:44:50.000 --> 00:44:50.790
+Sridhar Nomula: he's
+
+335
+00:44:58.520 --> 00:44:59.649
+Sridhar Nomula: It's
+
+336
+00:44:59.830 --> 00:45:17.340
+Sridhar Nomula: we looked at this going back to this, you know, we looked at this problem of condition where we are saying, for I in right this in has in various different meanings. So here, in this case, when you are saying
+
+337
+00:45:17.380 --> 00:45:20.890
+Sridhar Nomula: for I in that means it is there
+
+338
+00:45:21.190 --> 00:45:25.740
+Sridhar Nomula: like, I said. It is going through each element, and assigning that,
+
+339
+00:45:33.170 --> 00:45:48.929
+Sridhar Nomula: and for each block of code is executed once for each value in the sequence. Right? So it goes to this, and then executes all the statements in the forlow, then it goes to the next. The next gives all the statements in that photo,
+
+340
+00:45:49.540 --> 00:45:56.279
+Sridhar Nomula: and it moves through all the values. So it doesn't skip anything. It moves through all the values.
+
+341
+00:45:58.020 --> 00:46:10.520
+Sridhar Nomula: So you don't have to maintain I or you don't have to move. I you don't have to do anything you just say, for I in something. Then Python automatically moves through each element
+
+342
+00:46:10.780 --> 00:46:11.959
+Sridhar Nomula: of that collection.
+
+343
+00:46:13.070 --> 00:46:19.539
+Sridhar Nomula: So this is explaining in detail. You know how it is moving to each value
+
+344
+00:46:19.570 --> 00:46:21.760
+Sridhar Nomula: of that connection. Right?
+
+345
+00:46:29.230 --> 00:46:30.490
+Sridhar Nomula: He's.
+
+346
+00:46:32.320 --> 00:46:40.059
+Sridhar Nomula: So you know this is talking about more about. You know the lobes, how to make them little bit smarter. Yeah. So
+
+347
+00:46:41.570 --> 00:46:55.920
+Sridhar Nomula: about the while you know any of these loops. The first thing that you encounter when you're trying to write the loops is, you may run into infinite look, so make sure that you know you don't run into that kind of condition,
+
+348
+00:46:57.630 --> 00:47:06.509
+Sridhar Nomula: and what practices to set your variables ahead of time, and you know then you can use those variables as you go through your loop
+
+349
+00:47:07.050 --> 00:47:16.379
+Sridhar Nomula: if you they find some variables within the low. But then they stay within the they don't exist out of the low.
+
+350
+00:47:16.640 --> 00:47:17.750
+Sridhar Nomula: It's
+
+351
+00:47:24.930 --> 00:47:29.489
+Sridhar Nomula: so. This is again, you know, giving that example. Um!
+
+352
+00:47:30.830 --> 00:47:41.970
+Sridhar Nomula: It is iterating through a set, or you know that the list right? And it is going through each element and just printing that particular element.
+
+353
+00:47:42.620 --> 00:47:47.889
+Sridhar Nomula: So it's printing before after, and going through each element and printing that.
+
+354
+00:47:53.380 --> 00:48:07.779
+Sridhar Nomula: So here it's actually just printing every number, you know, within the element. It's not doing anything. There is not much logic in that. But we want to. Do you know some more of logic in that? If you go through this list
+
+355
+00:48:08.300 --> 00:48:14.720
+Sridhar Nomula: this list it has nine, forty, one, twelve, three, seven to four, fifteen, right? Um.
+
+356
+00:48:14.960 --> 00:48:18.399
+Sridhar Nomula: And this example what this is trying to do is
+
+357
+00:48:18.560 --> 00:48:29.449
+Sridhar Nomula: trying to figure out the largest number. Yeah, it's going through just every element of that. So i'll explain what this means, and let you go through these slides.
+
+358
+00:48:30.180 --> 00:48:35.580
+Sridhar Nomula: If you look at this list, what is the largest number we know by looking at it. Right? What is the largest number?
+
+359
+00:48:43.600 --> 00:48:52.450
+Anton Zyarko: Seventy four, right? Yeah. Seventy, four. But the the computer doesn't know what is the largest number. Right? So
+
+360
+00:48:53.050 --> 00:48:55.680
+Sridhar Nomula: in this program, what's happening is
+
+361
+00:48:56.370 --> 00:49:04.589
+Sridhar Nomula: they will come to that program. But let me explain the logic. So first you are defining a variable.
+
+362
+00:49:04.860 --> 00:49:07.439
+Sridhar Nomula: And you are saying now, just to so far,
+
+363
+00:49:07.450 --> 00:49:13.809
+Sridhar Nomula: that's your placeholder. That's your placeholder, and in the beginning you are saying, minus one is my largest.
+
+364
+00:49:14.330 --> 00:49:19.750
+Sridhar Nomula: Why is that? Because you are only dealing with positive numbers, and it
+
+365
+00:49:20.040 --> 00:49:33.789
+Sridhar Nomula: you want to start with the first number, and you start assigning that, as the largest number, and then move on. Then try to figure out if there is anything larger number, so you start with a minus one. Then you move on to the first element.
+
+366
+00:49:33.800 --> 00:49:46.660
+Sridhar Nomula: Yeah, and the first element is three. So three is definitely greater than minus one. Then you say, Oh, minus one is not my largest number anymore. Now let me assign three as the largest number.
+
+367
+00:49:47.020 --> 00:49:50.240
+Sridhar Nomula: Then program moves to the next iteration,
+
+368
+00:49:50.270 --> 00:50:08.589
+Sridhar Nomula: which the next element is forty. One now is forty, one greater than three, of course forty. One is greater than three. Now. Three is not my largest number anymore. Let me put forty, one as the largest number then moves on to the next one. Twelve is twelve greater than forty One.
+
+369
+00:50:08.600 --> 00:50:25.890
+Sridhar Nomula: No, so i'll keep forty. One i'm not going to change it anything. Then I move on to my next element. Then that is, nine is nine greater than forty one. No. So let me keep forty. One, and I don't want to change this. Then I encounter seventy, four is seventy, four, greater than forty. One.
+
+370
+00:50:25.900 --> 00:50:33.309
+Sridhar Nomula: Yeah, it's definitely going to replace that. Now come to the so, and four becomes that largest number. Now, then, comes the
+
+371
+00:50:33.610 --> 00:50:51.039
+Sridhar Nomula: last element of fifteen is fifteen, greater than seventy, four. No. So now my grade test number is seventy four. The largest number is seventy four. This is the logic to find the just a value. How do you implement this in the program right? So
+
+372
+00:50:51.070 --> 00:51:09.240
+Sridhar Nomula: when you looked at when you looked at these numbers, you know, you know, you can easily figure it out. But computer computer is dumb in in a way that you can. Only you have to tell Computer how to define how to process the information
+
+373
+00:51:09.250 --> 00:51:17.570
+Sridhar Nomula: based on what you tell. That's what the computer is going to do, but it's going to do it faster. Yeah. So here
+
+374
+00:51:18.630 --> 00:51:27.889
+Sridhar Nomula: this logic, what we looked at it so far. So you are saying in the beginning, you say largest so far equals one. That means you first
+
+375
+00:51:27.980 --> 00:51:30.600
+Sridhar Nomula: define the first time
+
+376
+00:51:30.740 --> 00:51:42.499
+Sridhar Nomula: they define a variable, and you assign the lowest number possible in your list, right? And then you start from one.
+
+377
+00:51:43.070 --> 00:51:50.610
+Sridhar Nomula: Then from there you go. So it's just printing. You know what is the beginning number that is one.
+
+378
+00:51:56.680 --> 00:51:58.799
+Sridhar Nomula: Again, this is just a
+
+379
+00:51:59.500 --> 00:52:01.709
+Sridhar Nomula: What is this? Exactly. The onum,
+
+380
+00:52:04.950 --> 00:52:07.129
+JIANG LIU(za6417): The the number in the list?
+
+381
+00:52:07.890 --> 00:52:09.650
+Ajith Narasimha: Yes, physical reference.
+
+382
+00:52:10.420 --> 00:52:21.209
+Sridhar Nomula: Yeah, it is. Um, yeah, it carries the number in the list for each iteration, and this is for reference. This is a variable, which is defined only in the scope of the for loop,
+
+383
+00:52:21.510 --> 00:52:29.559
+JIANG LIU(za6417): and this variable will have value of each element of the list for each iteration.
+
+384
+00:52:30.530 --> 00:52:34.470
+Sridhar Nomula: So now, when I come to the next line here,
+
+385
+00:52:35.260 --> 00:52:40.510
+Sridhar Nomula: here, not this the number? For the first iteration? It will have
+
+386
+00:52:40.620 --> 00:52:42.120
+Sridhar Nomula: value nine
+
+387
+00:52:42.290 --> 00:52:48.629
+Sridhar Nomula: right, if nine greater than largest, or so far, What is the largest? So far?
+
+388
+00:52:49.490 --> 00:52:51.389
+Sridhar Nomula: What is the value of logist so far?
+
+389
+00:52:51.400 --> 00:52:52.890
+JIANG LIU(za6417): Minus one? That's my name,
+
+390
+00:52:52.900 --> 00:52:54.089
+Sridhar Nomula: minus one
+
+391
+00:52:54.100 --> 00:52:57.200
+Sridhar Nomula: right in the first iteration it is minus one.
+
+392
+00:52:57.320 --> 00:53:02.810
+Sridhar Nomula: Then it moves on to that. So now will it go to this next line
+
+393
+00:53:03.390 --> 00:53:04.890
+Sridhar Nomula: in the first reduction?
+
+394
+00:53:09.370 --> 00:53:22.110
+Akshat Verma: Yeah, because nine is greater than minus one the first time it goes in now. The largest so far equals to the none. That means I'm assigning nine to this
+
+395
+00:53:23.030 --> 00:53:25.020
+Sridhar Nomula: right
+
+396
+00:53:25.640 --> 00:53:36.160
+Sridhar Nomula: and then painting something. Okay, you know, this is so far the largest is nine, then moving on, then goes to the next iteration. Now it works to them.
+
+397
+00:53:36.310 --> 00:53:37.680
+Sridhar Nomula: Scottish
+
+398
+00:53:37.690 --> 00:53:54.269
+Ajith Narasimha: right is forty, one greater than nine. Whatever logic that we have just seen. You know this is exactly what's happening. Here is forty, one greater than nine, yes, now forty. One becomes the largest. Then it. Prints That statement then goes to the next iteration.
+
+399
+00:53:54.280 --> 00:53:58.489
+Ajith Narasimha: It's all greater than what is the largest so far in the third iteration
+
+400
+00:53:58.500 --> 00:54:01.489
+Yashavanth Shivapura Prabhudev: forty-five, forty-one. Yeah,
+
+401
+00:54:01.500 --> 00:54:03.289
+Sridhar Nomula: so twelve greater than forty one. No,
+
+402
+00:54:03.300 --> 00:54:10.300
+Ajith Narasimha: no! Then it goes here. What will it? The largest so far? Still forty, one one again right
+
+403
+00:54:10.310 --> 00:54:26.140
+Ajith Narasimha: here. The value changes. Now this condition satisfies this. If condition, then it changes something right, then it becomes a seventy four like that. Yeah. So this is A. This is using the
+
+404
+00:54:26.210 --> 00:54:36.290
+Sridhar Nomula: to iterate through every element and try to find the largest value in this list. This is a very small use case of loops.
+
+405
+00:54:36.300 --> 00:54:38.040
+Sridhar Nomula: Okay, yes, action,
+
+406
+00:54:38.480 --> 00:54:45.779
+Akshat Verma: professor, can the largest. So for number of a nine, or then the number can be equal.
+
+407
+00:54:46.770 --> 00:54:48.440
+Sridhar Nomula: Ah! Say that again,
+
+408
+00:54:48.450 --> 00:54:54.790
+Akshat Verma: Can the largest sofa number be nine, for example. And then what happens? How does the program go ahead?
+
+409
+00:54:55.790 --> 00:55:04.879
+Sridhar Nomula: So first iteration, the largest number becomes nine right? So first iteration when you start the largest so far is minus one.
+
+410
+00:55:04.950 --> 00:55:06.080
+Sridhar Nomula: It's
+
+411
+00:55:06.140 --> 00:55:09.149
+Sridhar Nomula: there it. This condition satisfies
+
+412
+00:55:27.750 --> 00:55:40.379
+Ajith Narasimha: nine greater than nine false false. Then does this change, because it doesn't it will still be nine. Right then. What happens after the first iteration? Where does it go
+
+413
+00:55:40.530 --> 00:55:48.990
+Akshat Verma: in? Just to forty, One, twenty, one. It goes to what is to the forty one. Then what happens for the second iteration?
+
+414
+00:55:49.000 --> 00:55:54.710
+Ajith Narasimha: Yeah. So you can start with nine. This logic will work only for this,
+
+415
+00:55:54.950 --> 00:56:01.890
+Sridhar Nomula: that right. But I want this logic to work for any positive integers. Then what do I say? I'll start with.
+
+416
+00:56:12.670 --> 00:56:22.389
+Sridhar Nomula: I start with minus one, and the first element becomes the largest. Then, if the second element is larger, the larger than the first element, then it works on, so on and so forth.
+
+417
+00:56:22.400 --> 00:56:24.990
+Akshat Verma: That's the only way it goes till the end. Fifteen.
+
+418
+00:56:25.000 --> 00:56:25.589
+Sridhar Nomula: Yes,
+
+419
+00:56:25.600 --> 00:56:39.469
+Akshat Verma: yeah. So when I say this for low, Okay, when I say this for low, it goes through each element until the end of the list. Okay,
+
+420
+00:56:41.260 --> 00:56:42.420
+you know
+
+421
+00:56:44.200 --> 00:56:48.120
+Yashavanth Shivapura Prabhudev: this. Okay, yes, anyone Do you have a question?
+
+422
+00:56:48.410 --> 00:56:50.519
+Yashavanth Shivapura Prabhudev: Ah, yeah, hi, Professor. Oh,
+
+423
+00:56:50.530 --> 00:56:54.439
+what if the numbers include a negative numbers also.
+
+424
+00:56:55.050 --> 00:56:57.620
+Sridhar Nomula: Yeah, So this is when it works for
+
+425
+00:56:57.830 --> 00:57:07.160
+Yashavanth Shivapura Prabhudev: um. Yeah, to begin with, the restarted with the negative, you know, minus one, so that it takes the first element as the
+
+426
+00:57:07.310 --> 00:57:22.360
+Yashavanth Shivapura Prabhudev: largest, and then moves on. Let's say you have negative number. Let's say you have negative number here as minus nine. Okay, let's say this is minus nine. What happens then? The first condition does it satisfy?
+
+427
+00:57:22.460 --> 00:57:26.389
+Sridhar Nomula: No, it doesn't satisfy, but it goes to the next one, then it satisfies.
+
+428
+00:57:34.360 --> 00:57:37.489
+Sridhar Nomula: But let's say you have all negative numbers. Okay,
+
+429
+00:57:37.500 --> 00:57:43.109
+Sridhar Nomula: you have all negative numbers. Then one becomes the largest number.
+
+430
+00:57:43.690 --> 00:57:44.720
+Sridhar Nomula: It's.
+
+431
+00:57:44.800 --> 00:58:04.580
+Yashavanth Shivapura Prabhudev: Yeah, you have, even if you have all the negative numbers, still minus one, becomes the largest number. None of the if conditions are spies, and by the end of the for loop you end up with minus one as your largest number. And and, by the way, minus one is not in your list. Okay. So so this logic works
+
+432
+00:58:04.590 --> 00:58:09.089
+Yashavanth Shivapura Prabhudev: mainly for positive numbers inside the list.
+
+433
+00:58:09.100 --> 00:58:29.340
+Yashavanth Shivapura Prabhudev: Uh. So what if we are using uh, uh, like? We are finding the largest in negative. And so all this so far should be uh minus. Uh, is there any uh like uh the lowest number like infinity of like uh minus uh two to the power of uh sixty-four like that or thirty-two.
+
+434
+00:58:29.350 --> 00:58:42.100
+Yashavanth Shivapura Prabhudev: No, there is a on the other side. There is no end right on the other side there is no end but everything is lowest, everything is lowest, so a negative number, the largest is minus one.
+
+435
+00:58:42.650 --> 00:58:52.909
+Yashavanth Shivapura Prabhudev: So the logic here is, if you try to understand this logic, you start with the lowest number and the possible lowest number that is minus one.
+
+436
+00:58:53.120 --> 00:59:10.439
+Sridhar Nomula: Right Then I move on because i'm trying to find the largest that i'm trying to move on. So in minus one you would have to apply a different type of logic. This logic will not work for my negative. We can do that if you are going through negative. So the logic might work the way that my work is
+
+437
+00:59:10.450 --> 00:59:18.370
+Sridhar Nomula: when you encounter the first time. Okay, let's look at this. Yeah. Good question. So this is like very much welcoming our brain.
+
+438
+00:59:22.870 --> 00:59:24.000
+Sridhar Nomula: It's
+
+439
+00:59:34.900 --> 00:59:40.930
+Sridhar Nomula: uh, let's say I have all these uh negative numbers. How do I find
+
+440
+00:59:41.180 --> 00:59:54.089
+Sridhar Nomula: my largest in this one is, I'll start with the first one, and i'll say that as the largest. Okay, let's say, this logic works. Yeah. First I will say minus one is the largest minus nine is the largest.
+
+441
+00:59:55.320 --> 01:00:05.260
+Yashavanth Shivapura Prabhudev: Yeah, minus nine is an object. So, by the way, before going to the logic, if I have negative numbers, which one is the largest in these negative numbers.
+
+442
+01:00:06.290 --> 01:00:08.339
+Anton Zyarko: Negative five minus streets.
+
+443
+01:00:08.560 --> 01:00:21.239
+Yashavanth Shivapura Prabhudev: Yeah. Negative three. So I start with the first element, and I say, My first element is the okay I start from there. Then I move on to the next one.
+
+444
+01:00:21.670 --> 01:00:29.799
+Sridhar Nomula: If if this is larger than the my previous one, No, it's a note minus nine is a lot just so far,
+
+445
+01:00:29.850 --> 01:00:45.239
+Sridhar Nomula: so i'll still stay with the minus nine. I will not change that. Then I move on to the next one is minus twelve, greater than minus nine. No, so i'll kick it minus nine. Then I move on to the next One is minus three greater than minus nine.
+
+446
+01:00:45.250 --> 01:00:47.589
+Sridhar Nomula: Yes, Then i'll change that.
+
+447
+01:00:47.600 --> 01:01:05.649
+Sridhar Nomula: Yeah, Then I have this condition satisfied. Then i'll change the largest so far to minus three. Right. Then I move on to minus seven to four. The condition doesn't satisfy when I move on to minus fifteen the condition doesn't. Satisfy, Then it ends the for loop.
+
+448
+01:01:05.660 --> 01:01:12.699
+Sridhar Nomula: Then, after the fall of ends, I end up with minus three, as my largest. So far
+
+449
+01:01:14.510 --> 01:01:15.609
+Sridhar Nomula: it's
+
+450
+01:01:18.500 --> 01:01:26.379
+Yashavanth Shivapura Prabhudev: to begin with, What you have to do is you have to start with the first element as the largest, and then you go from there. If it's negative numbers,
+
+451
+01:01:26.860 --> 01:01:28.690
+Yashavanth Shivapura Prabhudev: does that answer it?
+
+452
+01:01:28.700 --> 01:01:30.589
+Yashavanth Shivapura Prabhudev: The question as Professor.
+
+453
+01:01:30.600 --> 01:01:32.160
+Yashavanth Shivapura Prabhudev: Yes, thank you.
+
+454
+01:01:34.070 --> 01:01:35.790
+Sridhar Nomula: The lines that are happening.
+
+455
+01:01:36.640 --> 01:01:43.749
+Bhargav: Yes, Margaret. So, Professor, the approach you have discussed right now. It works for a past two numbers as well. Right?
+
+456
+01:01:44.050 --> 01:01:44.689
+It's a
+
+457
+01:01:44.700 --> 01:01:52.849
+Sridhar Nomula: yeah. It works for a positive number as well. The problem with that approach is you would have to know what is the first interaction.
+
+458
+01:01:53.220 --> 01:01:53.990
+Sridhar Nomula: Okay,
+
+459
+01:01:54.000 --> 01:02:05.699
+Sridhar Nomula: then, you would have to write another condition. So here you would have to write another condition, and you need to define that ahead of time. So you say, if I
+
+460
+01:02:05.800 --> 01:02:07.100
+Sridhar Nomula: equals
+
+461
+01:02:07.140 --> 01:02:09.850
+Sridhar Nomula: zero, then
+
+462
+01:02:11.330 --> 01:02:13.450
+Sridhar Nomula: then largest up.
+
+463
+01:02:14.270 --> 01:02:15.970
+Sridhar Nomula: So far,
+
+464
+01:02:17.240 --> 01:02:19.729
+Sridhar Nomula: don't have the largest. So far,
+
+465
+01:02:22.270 --> 01:02:23.990
+Sridhar Nomula: the underscore now.
+
+466
+01:02:24.000 --> 01:02:24.959
+Sridhar Nomula: Okay,
+
+467
+01:02:25.040 --> 01:02:28.759
+Sridhar Nomula: And I would have to define this, I
+
+468
+01:02:29.160 --> 01:02:31.800
+Sridhar Nomula: as zero to begin with,
+
+469
+01:02:31.840 --> 01:02:33.160
+Sridhar Nomula: and it
+
+470
+01:02:33.510 --> 01:02:36.370
+Sridhar Nomula: increment this I for each loop.
+
+471
+01:02:36.640 --> 01:02:43.770
+Sridhar Nomula: How do I know? It is the first iteration? So I have to track this somehow. So i'm trying to type the Java code here.
+
+472
+01:02:48.440 --> 01:02:49.689
+Sridhar Nomula: Okay.
+
+473
+01:02:49.700 --> 01:02:58.289
+Sridhar Nomula: So in this condition I have to know what is the first iteration. Then I start with that as the largest.
+
+474
+01:02:58.670 --> 01:03:07.669
+Sridhar Nomula: So that's why I have this. I a folks to zero. Okay, Now I know this is the first attraction. Right? Then I start with that as the largest number.
+
+475
+01:03:07.680 --> 01:03:26.460
+Sridhar Nomula: Okay, Then I move on. Then I keep incrementing. Now I know that when I go to the next iteration. My, I will be one. So I know that it is not the first iteration. So this condition doesn't satisfy. Then it goes to this condition. The earlier lodging which we have been doing that is
+
+476
+01:03:26.470 --> 01:03:29.809
+Sridhar Nomula: is my previous largest, greater than my current.
+
+477
+01:03:30.230 --> 01:03:32.690
+Sridhar Nomula: Then you're trying to change that
+
+478
+01:03:32.700 --> 01:03:33.490
+Sridhar Nomula: he's
+
+479
+01:03:33.500 --> 01:03:40.099
+Sridhar Nomula: so. But the original logic that we have seen here. There is,
+
+480
+01:03:40.440 --> 01:03:55.710
+Sridhar Nomula: you don't have to track another variable. You just start with the smallest number, and that works for positive numbers. You just started the smallest number that is minus one. You see that as the greatest. So when you go to the first element automatically, that becomes greater than minus one.
+
+481
+01:03:57.450 --> 01:03:58.720
+Bhargav: Yes, yes, Professor,
+
+482
+01:04:00.800 --> 01:04:02.210
+Bhargav: come on.
+
+483
+01:04:04.710 --> 01:04:08.599
+Sridhar Nomula: Okay, Any other questions before we move on to the next one,
+
+484
+01:04:12.640 --> 01:04:15.150
+Sridhar Nomula: it's probably we'll look at more low patterns.
+
+485
+01:04:15.610 --> 01:04:22.059
+Sridhar Nomula: Yeah. So this is exactly actually, that was a good question. So which actually moves into our next topic. That is,
+
+486
+01:04:22.070 --> 01:04:24.139
+Sridhar Nomula: we are counting something in the loop.
+
+487
+01:04:24.670 --> 01:04:43.780
+Sridhar Nomula: Ah, what I did earlier is I'm. Counting something in the L, so that I know which iteration that is, Is it the first iteration? Or if it's not the first iteration. Right? So again coming here, this is what I was doing earlier is just counting in the loop. So if you look at this example.
+
+488
+01:04:44.240 --> 01:04:48.619
+Sridhar Nomula: Now I have this variable assigned as zero,
+
+489
+01:04:48.770 --> 01:04:53.990
+Sridhar Nomula: and as I iterate through each element of the list,
+
+490
+01:04:54.260 --> 01:04:57.510
+Sridhar Nomula: i'm incrementing this variable.
+
+491
+01:04:58.610 --> 01:04:59.640
+Sridhar Nomula: Thank you.
+
+492
+01:04:59.720 --> 01:05:02.919
+Sridhar Nomula: So every time this variable is, or
+
+493
+01:05:03.050 --> 01:05:04.359
+Sridhar Nomula: as a
+
+494
+01:05:04.690 --> 01:05:07.240
+Sridhar Nomula: it's getting incremented by bond.
+
+495
+01:05:07.310 --> 01:05:10.119
+Sridhar Nomula: So if I am seeing the sprint here,
+
+496
+01:05:15.000 --> 01:05:17.190
+Sridhar Nomula: it's incrementing in each iteration,
+
+497
+01:05:28.390 --> 01:05:44.200
+Sridhar Nomula: and this is an example of summing up in a loop. Yeah, same thing Again, we have this variable defined as zero in the beginning. Then it is iterating through each element of the list,
+
+498
+01:05:44.220 --> 01:05:58.909
+Sridhar Nomula: and what's happening is here. We are not counting the iteration number. Is it the first iteration? Is it a second iteration? No, we are not doing that. What we are doing here we are adding these numbers together.
+
+499
+01:06:00.430 --> 01:06:05.739
+Sridhar Nomula: This is a very good example. So we are just adding these numbers. So you
+
+500
+01:06:21.520 --> 01:06:23.340
+Sridhar Nomula: Okay. So, Lamb,
+
+501
+01:06:23.410 --> 01:06:25.119
+Sridhar Nomula: it is lying.
+
+502
+01:06:25.380 --> 01:06:28.719
+Sridhar Nomula: Zark: variable has the value of nine.
+
+503
+01:06:28.730 --> 01:06:36.720
+Sridhar Nomula: Okay. So it prints nine. So it prints nine, and the element value is also nine. Okay,
+
+504
+01:06:36.960 --> 01:06:40.609
+Sridhar Nomula: then moves on to the second nutrition. Now
+
+505
+01:06:41.230 --> 01:06:52.189
+Sridhar Nomula: it what is doing is Zor People's dissolved. Let's think. Now earlier nine. It was nine. Now it is adding nine plus forty, one.
+
+506
+01:06:52.200 --> 01:06:54.770
+Sridhar Nomula: Okay, so that there comes a fifty
+
+507
+01:06:55.100 --> 01:07:00.730
+Sridhar Nomula: right? So it is paintings on and thing. So when it comes to element forty, one you.
+
+508
+01:07:00.960 --> 01:07:11.459
+Sridhar Nomula: This value is fifty. When it comes to element twelve, then its value is sixty, two, then it adds a three modes, then it becomes sixty five.
+
+509
+01:07:11.510 --> 01:07:21.780
+Sridhar Nomula: Then it adds a seventy, four hold, then it becomes one hundred and thirty, nine like that, right? But at the end of this, then the value of the server is one hundred and fifty four.
+
+510
+01:07:21.940 --> 01:07:23.839
+Sridhar Nomula: Yeah, that is the final value.
+
+511
+01:07:23.980 --> 01:07:30.189
+Sridhar Nomula: So this is an example of it trading through the loops and keep adding values.
+
+512
+01:07:33.660 --> 01:07:36.659
+Sridhar Nomula: Okay, So this is another classic example.
+
+513
+01:07:36.720 --> 01:07:49.159
+Sridhar Nomula: Um. Same thing. More date is trying to raise getting an average right. So now we have all these numbers. What is the average of these numbers? What is the calculation for average of these numbers
+
+514
+01:07:55.800 --> 01:07:57.189
+by a number of
+
+515
+01:07:58.010 --> 01:07:59.549
+Sridhar Nomula: sorry to say that again
+
+516
+01:07:59.560 --> 01:08:02.189
+Bhargav: uh some, some by total number of items.
+
+517
+01:08:07.800 --> 01:08:11.060
+Ajith Narasimha: Right? If I have,
+
+518
+01:08:11.230 --> 01:08:30.019
+Sridhar Nomula: you know m n O. As my elements numbers, then those are three, then m plus n plus o divided by three that becomes the average. So now here I need two things. I need some of these things right, and I also need the
+
+519
+01:08:30.200 --> 01:08:46.900
+Sridhar Nomula: elements number of elements in that. So if I want to get an average of these numbers, I would have to sum them up nine plus forty, one plus four, plus three, plus seventy, four, plus fifteen. And how many elements are this? Two, three, four, five, six,
+
+520
+01:08:47.170 --> 01:08:50.799
+Sridhar Nomula: Then divide that whole somewhere nearby.
+
+521
+01:08:51.460 --> 01:08:56.909
+Sridhar Nomula: That's how I get the average. So now in my loop in I need to.
+
+522
+01:08:56.950 --> 01:08:58.050
+Sridhar Nomula: Yes,
+
+523
+01:08:58.140 --> 01:09:02.809
+Sridhar Nomula: now how many elements are there Then I also I need to get the sum.
+
+524
+01:09:03.700 --> 01:09:17.600
+Sridhar Nomula: Um! So what's happening in this slope is again iterating through each element which we have seen this multiple times. Now you know what this for loop means for a value in this something something right
+
+525
+01:09:18.580 --> 01:09:26.629
+Sridhar Nomula: that means it is iterating through each element of that array or the next. Now you are counting
+
+526
+01:09:26.819 --> 01:09:33.980
+Sridhar Nomula: just like how we have done in the previous four- of statement. We are just saying county host account plus one
+
+527
+01:09:41.270 --> 01:09:59.989
+Sridhar Nomula: by the end of this list. Now you know how many elements are there. Yeah, Because you start with zero when you come to the first element, this becomes one when you go to the second element. This becomes two. When you go to the third element, this becomes three, and when you go to the last element this becomes
+
+528
+01:10:00.760 --> 01:10:15.730
+Sridhar Nomula: yeah. At the end of the furlough. Now you know six. It has a six elements, right, and which we have seen in the previous local. You know we are trying to calculate the sum. So this is the same thing.
+
+529
+01:10:15.780 --> 01:10:18.560
+Sridhar Nomula: You are trying to calculate the sum,
+
+530
+01:10:19.630 --> 01:10:30.399
+Sridhar Nomula: some plus a value, some places only every time, so that means it is in doing nine plus forty, one plus twelve, plus three by seventy, four of plus fifteen like that
+
+531
+01:10:30.410 --> 01:10:31.389
+you
+
+532
+01:10:31.510 --> 01:10:37.789
+Sridhar Nomula: in the end. What you are doing is you are printing that average, and the formula for averages
+
+533
+01:10:38.450 --> 01:10:42.930
+Sridhar Nomula: your sum divided by count, your total sum divided by count.
+
+534
+01:10:43.590 --> 01:10:45.339
+Sridhar Nomula: That's what this is printing.
+
+535
+01:10:46.670 --> 01:10:49.529
+Sridhar Nomula: Okay, any questions so far on this,
+
+536
+01:10:59.620 --> 01:11:19.569
+Sridhar Nomula: Then this is another example where you are in. We will go through a couple of these examples, so that you get familiarized with loads, and what are all the different things that you can do in the loops, and you can be creative, and you know and implement your various different logic using the loops.
+
+537
+01:11:19.580 --> 01:11:24.360
+Sridhar Nomula: So this is an example of filtering in a loop. So you have
+
+538
+01:11:24.620 --> 01:11:26.389
+Sridhar Nomula: this list of elements.
+
+539
+01:11:26.400 --> 01:11:27.590
+Sridhar Nomula: Okay,
+
+540
+01:11:27.600 --> 01:11:31.229
+Sridhar Nomula: you have this list of elements, and
+
+541
+01:11:32.590 --> 01:11:43.589
+Sridhar Nomula: and you don't want to do anything for each of these elements, but you only want to do something um only for some of these elements.
+
+542
+01:11:43.600 --> 01:11:46.780
+Sridhar Nomula: Right? So here, in this example,
+
+543
+01:11:46.970 --> 01:11:48.820
+Sridhar Nomula: what we are trying to do is
+
+544
+01:11:49.170 --> 01:11:53.399
+Sridhar Nomula: it's the element of always greater than twenty, then print something.
+
+545
+01:11:53.850 --> 01:11:59.110
+Sridhar Nomula: Okay, all. I'm. Printing is print, large number, and then the value.
+
+546
+01:12:01.160 --> 01:12:02.330
+Sridhar Nomula: So
+
+547
+01:12:02.730 --> 01:12:10.529
+Sridhar Nomula: if you don't do this condition when you try to print it is going to iterate through every element, and it is going to print that.
+
+548
+01:12:10.650 --> 01:12:17.070
+Sridhar Nomula: How can I skip some of these elements? How can I filter some of these elements and do my
+
+549
+01:12:24.840 --> 01:12:29.740
+Sridhar Nomula: so if value is greater than twenty, then only do this otherwise don't do anything.
+
+550
+01:12:30.040 --> 01:12:40.040
+Sridhar Nomula: So what happens in this? For? Look again, there's a value, this variable That's defined. It goes through each element
+
+551
+01:12:40.360 --> 01:12:43.280
+Sridhar Nomula: of the array on the list.
+
+552
+01:12:43.320 --> 01:12:46.729
+Sridhar Nomula: Okay, each element of the list, and then
+
+553
+01:12:47.190 --> 01:12:51.040
+Sridhar Nomula: it executes this first if condition,
+
+554
+01:12:51.050 --> 01:13:01.490
+Sridhar Nomula: and if that if correlation satisfies only then it does the rest of the instructions, otherwise it doesn't the the it goes to the next element. Then it goes to the next element like that.
+
+555
+01:13:07.350 --> 01:13:11.030
+Sridhar Nomula: Okay, this is search using a Boolean variable.
+
+556
+01:13:14.180 --> 01:13:24.229
+Sridhar Nomula: The earlier condition that we have seen is if the value is greater than twenty. Right? So here we have the Boolean variable found.
+
+557
+01:13:24.910 --> 01:13:36.599
+Sridhar Nomula: Okay. This found. To begin with, it starts with faults, and what you are trying to find in this list is, let's say your task is to find if there is a three in this list,
+
+558
+01:13:36.810 --> 01:13:39.540
+Sridhar Nomula: what do you do? You look at the list and you say
+
+559
+01:13:42.830 --> 01:13:45.050
+Sridhar Nomula: so. You look at this list
+
+560
+01:13:45.060 --> 01:13:50.269
+Sridhar Nomula: and you're saying, Yes, that is three, right. But how does the computer know that there is the ring
+
+561
+01:13:50.460 --> 01:13:55.830
+Sridhar Nomula: for the computer know that there is three. It has to iterate through everything, and then
+
+562
+01:14:01.300 --> 01:14:12.399
+Sridhar Nomula: you do an if condition. And you say, once you find that element. Three, then you say, who the I found equals to True?
+
+563
+01:14:12.730 --> 01:14:23.760
+Sridhar Nomula: Okay. And when this firm of ends, by the time it reaches to the last element, then this, for loop ends up, then found will be true.
+
+564
+01:14:23.960 --> 01:14:30.550
+Sridhar Nomula: And uh, at the end it turns after phone any questions on this logic.
+
+565
+01:14:32.950 --> 01:14:44.500
+Sridhar Nomula: So by the end of this iteration, or by the by the time it goes through all the elements of the list, then it finds a train. Then it prints through at the end.
+
+566
+01:14:53.200 --> 01:14:54.980
+Sridhar Nomula: Now, this is there
+
+567
+01:14:55.700 --> 01:15:03.200
+Sridhar Nomula: other way to look at it. Now, you know, we begin with finding the largest number. But how do you find the smallest value.
+
+568
+01:15:03.750 --> 01:15:06.280
+Sridhar Nomula: Okay, how to find the smallest value.
+
+569
+01:15:06.290 --> 01:15:07.989
+Sridhar Nomula: Let's say what this logic is.
+
+570
+01:15:08.000 --> 01:15:10.250
+Sridhar Nomula: So again, we'll start with the
+
+571
+01:15:10.790 --> 01:15:20.049
+Sridhar Nomula: This is the earlier logic, right? So we started with the larger, so far as minus one. And we had this log. You remember how would we change this to make
+
+572
+01:15:20.090 --> 01:15:22.650
+Sridhar Nomula: it find the smallest value in the list.
+
+573
+01:15:22.720 --> 01:15:25.050
+Sridhar Nomula: Anyone have any ideas on that?
+
+574
+01:15:29.540 --> 01:15:32.190
+JIANG LIU(za6417): I think we can also close your feet.
+
+575
+01:15:32.200 --> 01:15:33.590
+The
+
+576
+01:15:33.700 --> 01:15:39.600
+JIANG LIU(za6417): From the first adamants we use our elements to compare with the central one, and
+
+577
+01:15:39.610 --> 01:15:56.470
+JIANG LIU(za6417): and then let's. In this case the nine compare forty, one, and then nine for the smallest number so far, and There we go to a group one by one, and here's the right. And what do we change in this
+
+578
+01:16:09.170 --> 01:16:17.549
+JIANG LIU(za6417): for the call? I think we can say smallest. So far we still can say negative one or zero here.
+
+579
+01:16:17.560 --> 01:16:20.329
+JIANG LIU(za6417): Yeah, we compare the
+
+580
+01:16:20.370 --> 01:16:24.710
+JIANG LIU(za6417): if the number is a number
+
+581
+01:16:37.800 --> 01:16:46.429
+JIANG LIU(za6417): right, somebody else was also saying, I didn't catch that, I was saying. You just replace the word largest, and in the
+
+582
+01:16:46.440 --> 01:16:59.440
+Akshat Verma: ninety four line actually, the number is less than the smallest, So far, so we'll compare every number, and which will be smaller than two if they get covered, and ultimately in the last. That is what we are
+
+583
+01:16:59.510 --> 01:17:02.520
+Sridhar Nomula: right. So now I've a little bit, you know, for a
+
+584
+01:17:02.610 --> 01:17:19.519
+JIANG LIU(za6417): you know, for naming six. We will change this to the smaller so far. Ah, but this changes in this condition changes instead of taking for largest. Now we go through each element, and we check with the smaller the the number is less than the smallest. So
+
+585
+01:17:20.400 --> 01:17:21.500
+excuse me.
+
+586
+01:17:22.300 --> 01:17:25.139
+Sridhar Nomula: Yeah. So that's the key thing, right?
+
+587
+01:17:30.870 --> 01:17:37.989
+Sridhar Nomula: So you Still, if you start with minus one, you still end up with minus one as your smallest.
+
+588
+01:17:41.610 --> 01:17:46.839
+Sridhar Nomula: Then what happens in your list is your minus one still the smallest?
+
+589
+01:17:47.930 --> 01:17:49.230
+Bhargav: Yes,
+
+590
+01:17:49.810 --> 01:17:52.790
+Bhargav: yeah. So here is an example. There
+
+591
+01:17:53.140 --> 01:17:54.440
+Sridhar Nomula: it's.
+
+592
+01:17:54.940 --> 01:17:57.290
+Sridhar Nomula: It starts with smallest, as none.
+
+593
+01:17:57.300 --> 01:18:02.050
+Sridhar Nomula: Okay. So there is nothing in that. Remember, I was explaining that a logic.
+
+594
+01:18:03.860 --> 01:18:23.689
+Sridhar Nomula: So again, going back here, you know, earlier, we thought, okay, We we start with minus one, we instead of greater than we check. Ah, you know smaller than I mean the less than so. There still works. But at the end of the all the iteration you have minus one as your lowest, because you started with the lowest minus one.
+
+595
+01:18:23.700 --> 01:18:29.699
+Sridhar Nomula: Okay, but what you would need to do is you need to start the first element as the lowest.
+
+596
+01:18:30.440 --> 01:18:46.060
+Sridhar Nomula: Okay, in my example, when I was, you know. Remember, when I was changing with these are negative two numbers. I start the first iteration. I say that first element is the greatest right here,
+
+597
+01:18:46.070 --> 01:18:53.250
+Sridhar Nomula: the first for the first iteration i'm. Assigned that first element as the smallest,
+
+598
+01:18:53.310 --> 01:19:04.290
+Sridhar Nomula: then for the next one. I'm. Going through that same logic. But it's a less than how do I know if it is the first iteration, because i'm defining this ahead of time as none.
+
+599
+01:19:04.300 --> 01:19:09.510
+Sridhar Nomula: Okay, where I know that is none. That means it. It's the first iteration,
+
+600
+01:19:10.010 --> 01:19:13.099
+Sridhar Nomula: and I am assigning that elements value
+
+601
+01:19:13.280 --> 01:19:14.710
+Sridhar Nomula: the smallest.
+
+602
+01:19:15.350 --> 01:19:16.450
+Sridhar Nomula: Okay,
+
+603
+01:19:17.730 --> 01:19:19.870
+Sridhar Nomula: Is it clear the logic here?
+
+604
+01:19:22.080 --> 01:19:25.030
+Yaswant Bharadwaj Valluri: Yes, yes, yes,
+
+605
+01:19:25.620 --> 01:19:34.489
+Sridhar Nomula: So there are many examples like that. You know a lot of things you can do quickly. I want to touch upon. Is that not operator?
+
+606
+01:19:34.500 --> 01:19:40.250
+Sridhar Nomula: This not a and is not operator. Yeah,
+
+607
+01:19:44.780 --> 01:19:49.690
+Sridhar Nomula: what is the difference between the smallest equals, none.
+
+608
+01:19:49.980 --> 01:19:52.710
+Sridhar Nomula: All its smallest equals a volume.
+
+609
+01:19:52.960 --> 01:19:55.880
+Sridhar Nomula: Devil a folks. What is the difference in?
+
+610
+01:20:01.910 --> 01:20:04.990
+Yashavanth Shivapura Prabhudev: Okay, someone else about you also commenting, Please go ahead,
+
+611
+01:20:05.000 --> 01:20:06.589
+I was saying, Ah,
+
+612
+01:20:06.600 --> 01:20:07.709
+Yashavanth Shivapura Prabhudev: yeah, the same
+
+613
+01:20:08.440 --> 01:20:17.190
+Yashavanth Shivapura Prabhudev: that's like the first one equals. We will, you know, assign the value for it, and this one will reject if it is that value.
+
+614
+01:20:17.200 --> 01:20:34.080
+Yashavanth Shivapura Prabhudev: Yeah. So in the single equals, what you are doing doing is taking the right side of algorithm and assigning it to the left side variable right, and here a double equals is not an assignment operator, but it is a logical recommendation. Like your
+
+615
+01:20:38.600 --> 01:20:47.490
+Sridhar Nomula: The double equals sign means equal to condition, and it returns some boolean, either true or false.
+
+616
+01:20:47.500 --> 01:21:00.559
+Sridhar Nomula: Yeah. So that is the double it works to. So same thing. That is a case is nothing, but you are double. Equal Sign, you can say, is none, or even say double. It works done also same thing,
+
+617
+01:21:00.680 --> 01:21:04.339
+Sridhar Nomula: and is not is the same thing as not equals to
+
+618
+01:21:04.750 --> 01:21:07.530
+Sridhar Nomula: okay, and that is also a logical operator.
+
+619
+01:21:07.540 --> 01:21:11.540
+Sridhar Nomula: It returns error, bully, and whether true or false.
+
+620
+01:21:11.550 --> 01:21:14.299
+Sridhar Nomula: Okay, any questions of our on this.
+
+621
+01:21:15.930 --> 01:21:30.069
+Anton Zyarko: Yes, Professor, my question about the none. The keyword is that a numeric or a character, or is it? Does it go for both when you use none as a key or not. And is there separated data type. So it's a it's a null.
+
+622
+01:21:30.250 --> 01:21:35.120
+Anton Zyarko: It is neither integer. It is not a string. So in Python.
+
+623
+01:21:36.360 --> 01:21:38.190
+Sridhar Nomula: I don't
+
+624
+01:21:58.510 --> 01:22:00.279
+Sridhar Nomula: in python
+
+625
+01:22:00.620 --> 01:22:02.560
+Sridhar Nomula: when I say none.
+
+626
+01:22:03.310 --> 01:22:05.440
+Sridhar Nomula: It is a different data type
+
+627
+01:22:06.840 --> 01:22:12.140
+Anton Zyarko: uh, and let me show something here. If you see on the bottom I have, uh
+
+628
+01:22:12.770 --> 01:22:14.190
+Sridhar Nomula: but terminal.
+
+629
+01:22:15.490 --> 01:22:17.700
+Sridhar Nomula: And if I say here,
+
+630
+01:22:28.560 --> 01:22:32.560
+Sridhar Nomula: so it is reading the instruction evaluating
+
+631
+01:22:32.610 --> 01:22:43.850
+Anton Zyarko: and then printing. Okay. So here, if I say, my V. Two equals none. So what is the data type of my web?
+
+632
+01:22:45.500 --> 01:22:51.180
+Sridhar Nomula: Is it a string data tired? Is it an integer? What is this? Or is it a Boolean.
+
+633
+01:22:51.770 --> 01:22:53.030
+Sridhar Nomula: It's a land type.
+
+634
+01:22:53.460 --> 01:22:56.269
+Anton Zyarko: I see grades. It's a completely different type.
+
+635
+01:22:59.480 --> 01:23:05.129
+Anton Zyarko: Okay, Now let's say, Now I suddenly, I say, okay, my is
+
+636
+01:23:07.090 --> 01:23:09.139
+Sridhar Nomula: something something.
+
+637
+01:23:10.430 --> 01:23:11.690
+Sridhar Nomula: It's
+
+638
+01:23:22.750 --> 01:23:25.260
+Sridhar Nomula: in five. Say
+
+639
+01:23:25.430 --> 01:23:28.199
+my work. None is it none?
+
+640
+01:23:28.320 --> 01:23:30.890
+Sridhar Nomula: Remember, we were talking about is none right?
+
+641
+01:23:30.900 --> 01:23:33.800
+Sridhar Nomula: Is operator, so is it none?
+
+642
+01:23:34.570 --> 01:23:35.990
+Sridhar Nomula: No, it's not bad.
+
+643
+01:23:36.000 --> 01:23:38.340
+Sridhar Nomula: Yeah, Now it returns false.
+
+644
+01:23:38.800 --> 01:23:39.870
+Sridhar Nomula: It's
+
+645
+01:23:42.000 --> 01:23:44.300
+Sridhar Nomula: yeah, Any other questions,
+
+646
+01:23:44.310 --> 01:23:45.130
+Anton Zyarko: Thank you
+
+647
+01:23:48.980 --> 01:23:51.410
+Sridhar Nomula: already. Um,
+
+648
+01:23:51.600 --> 01:23:55.170
+Sridhar Nomula: We can give a break of for forty, five minutes,
+
+649
+01:23:55.200 --> 01:23:59.980
+Sridhar Nomula: and then we can come back. It's all seven hundred and thirty-two,
+
+650
+01:24:00.060 --> 01:24:04.760
+Sridhar Nomula: then four to five minutes, if somebody please calculate for me. When are we going to meet
+
+651
+01:24:07.090 --> 01:24:10.260
+Surya Sai Dinesh Addanki: eight hundred and sixty, seven, eight hundred and seventeen.
+
+652
+01:24:10.270 --> 01:24:13.399
+Yashavanth Shivapura Prabhudev: Okay, it's seventeen.
+
+653
+01:24:13.410 --> 01:24:16.980
+Yashavanth Shivapura Prabhudev: Yes, okay. So we will meet at eight, seventeen
+
+654
+01:24:17.170 --> 01:24:20.289
+Yashavanth Shivapura Prabhudev: and let me pause this recording.
+
+655
+01:24:24.190 --> 01:24:27.419
+Sridhar Nomula: Oh, no, I Don't want to stop recording.
+
+656
+01:24:28.660 --> 01:24:31.189
+Sridhar Nomula: Okay. The recording has started.
+
+657
+01:24:33.750 --> 01:24:50.180
+Sridhar Nomula: Okay. So the string means It's a collection of characters sequence of characters, right? And how do you represent a string and python, it could be either with the single codes or with the double codes,
+
+658
+01:24:56.540 --> 01:25:00.750
+Sridhar Nomula: and you can use the plus assign to concatenate together.
+
+659
+01:25:01.640 --> 01:25:15.460
+Sridhar Nomula: That means, let's say you have string one. Hello, and you have string to with the single codes. This is also a string, and you want to concatenate them together. Then you can just say string one plus string, two
+
+660
+01:25:16.490 --> 01:25:22.889
+Sridhar Nomula: here. It's assigning to a different variable. Now, when i'm trying to print the bad new variable
+
+661
+01:25:23.320 --> 01:25:25.970
+Sridhar Nomula: it's. Hello! There, combined together,
+
+662
+01:25:32.430 --> 01:25:34.230
+Sridhar Nomula: and then plus
+
+663
+01:25:34.310 --> 01:25:45.720
+Sridhar Nomula: then do a non-string data type. Then it throws an error. It cannot concatenate, string and into objects, because here. This is an inter object. Then we are trying to
+
+664
+01:25:45.860 --> 01:25:52.319
+Sridhar Nomula: uh combine them. It doesn't do implicit conversion into a string,
+
+665
+01:25:52.520 --> 01:26:10.099
+Sridhar Nomula: although some programming languages can do that in some programming languages. If you do this, it will take this one and make that as a string, because one can be converted to a string, and it can concatenate that. But, python doesn't do that. So you need to be careful when you're doing the string and animation.
+
+666
+01:26:10.240 --> 01:26:17.809
+Sridhar Nomula: If you have a number like this. You want to concatenate to a string. Then you would need to use the function. Sdr:
+
+667
+01:26:18.570 --> 01:26:21.989
+Sridhar Nomula: And that converts that number
+
+668
+01:26:23.400 --> 01:26:24.730
+Sridhar Nomula: to a string.
+
+669
+01:26:24.790 --> 01:26:34.320
+Sridhar Nomula: Okay, Str takes either an integer float or you know any other number data type, and that converts to a string.
+
+670
+01:26:38.050 --> 01:26:49.580
+Sridhar Nomula: Yeah. So when string contains the numbers, it is still a string. So here, this one, two, three. It is not a integer data type, but it is a string data time.
+
+671
+01:26:49.590 --> 01:26:51.819
+Sridhar Nomula: Okay. So you're fired.
+
+672
+01:26:52.570 --> 01:26:55.180
+Sridhar Nomula: There is mine which looks to you.
+
+673
+01:27:06.510 --> 01:27:08.340
+Sridhar Nomula: So if I have
+
+674
+01:27:11.940 --> 01:27:13.620
+Sridhar Nomula: my number,
+
+675
+01:27:20.560 --> 01:27:23.989
+Sridhar Nomula: what do you think is the data type of money number?
+
+676
+01:27:29.440 --> 01:27:31.760
+Sridhar Nomula: The data type of my number will be,
+
+677
+01:27:31.810 --> 01:27:42.389
+Kumar Abhinav: it can be string. So it is a class of string, right? It is a string. It's not number. So, even though it has a number. It is a still a string.
+
+678
+01:27:46.290 --> 01:27:48.009
+Sridhar Nomula: Okay, I got it.
+
+679
+01:27:48.360 --> 01:27:50.190
+Sridhar Nomula: Now let me answer this:
+
+680
+01:27:52.190 --> 01:27:59.190
+Sridhar Nomula: When a string on this numbers it is still a string, We can convert numbers in a string into a number using int
+
+681
+01:27:59.200 --> 01:27:59.889
+Sridhar Nomula: it's.
+
+682
+01:27:59.900 --> 01:28:03.540
+Sridhar Nomula: So let's say you have one, two, three here,
+
+683
+01:28:03.680 --> 01:28:18.189
+Sridhar Nomula: right. You have one to three, and you want to convert that to a number and do some number calculation you can do int or any other number data type functions that you can use and convert back to a number.
+
+684
+01:28:18.200 --> 01:28:19.260
+Sridhar Nomula: Okay.
+
+685
+01:28:27.220 --> 01:28:37.769
+Sridhar Nomula: And we have seen this example in the last exercise that you are doing in the lab. You got an input and you were using that as a number, it wasn't working,
+
+686
+01:28:37.780 --> 01:28:54.539
+Kumar Abhinav: and because in what it takes by default a string. So whenever you know, we are trying to read from a standard input, it is always a string, Or even if you are reading through file, or you know, some other input source. You read that first as a string,
+
+687
+01:28:54.550 --> 01:28:57.890
+Sridhar Nomula: then you manipulate it to. However, where you want to.
+
+688
+01:28:58.020 --> 01:29:09.919
+Sridhar Nomula: Okay that way, you have more control, right? So when you build that string which can take it immediately. Then let's say you want to convert it into a number or a flow for some other oasis. Then you can do that.
+
+689
+01:29:12.580 --> 01:29:21.289
+Sridhar Nomula: Okay? So this is just an example of how you know when you do an input, function. Um, user is entering one second,
+
+690
+01:29:25.520 --> 01:29:26.460
+it's two.
+
+691
+01:29:26.810 --> 01:29:30.529
+Sridhar Nomula: Even the user is entering a number. It is still a string.
+
+692
+01:29:31.780 --> 01:29:34.010
+Sridhar Nomula: Yes. But
+
+693
+01:29:40.270 --> 01:29:47.419
+Sridhar Nomula: yeah, if that's exactly what I was saying earlier.
+
+694
+01:29:47.670 --> 01:29:49.380
+Sridhar Nomula: So here
+
+695
+01:29:49.700 --> 01:30:00.460
+Sridhar Nomula: my number is a string, and it has a one, two, three, so it can be converted to integer. Right? So you can say my underscore number.
+
+696
+01:30:01.450 --> 01:30:06.419
+Sridhar Nomula: Now this is a string, so let's say, I assign it to
+
+697
+01:30:07.380 --> 01:30:09.370
+Sridhar Nomula: another variable.
+
+698
+01:30:10.270 --> 01:30:13.530
+Sridhar Nomula: So if you look at the type of X,
+
+699
+01:30:13.960 --> 01:30:15.859
+Sridhar Nomula: it is an integer time.
+
+700
+01:30:16.850 --> 01:30:17.920
+Sridhar Nomula: It's
+
+701
+01:30:18.240 --> 01:30:24.579
+Sridhar Nomula: so you can convert. And now you can do some calculations, also some mathematical operations.
+
+702
+01:30:26.540 --> 01:30:28.419
+Sridhar Nomula: Did I answer her question?
+
+703
+01:30:28.430 --> 01:30:31.989
+madhu sudhan reddy puppala: I'm asking the why it was all of your uh thing like
+
+704
+01:30:32.030 --> 01:30:34.589
+madhu sudhan reddy puppala: if it is already an individual.
+
+705
+01:30:34.600 --> 01:30:36.530
+Sridhar Nomula: How can I be? It? Is it?
+
+706
+01:30:36.540 --> 01:30:48.299
+Yashavanth Shivapura Prabhudev: Okay? So now X Is an integer. Correct? X is an integer. Now, how can you convert. I was mentioning that verbally that it's a str function. So when you do str function
+
+707
+01:30:52.510 --> 01:30:54.889
+Sridhar Nomula: my new variable
+
+708
+01:30:55.240 --> 01:30:56.429
+Sridhar Nomula: Okay,
+
+709
+01:30:56.600 --> 01:30:58.410
+Sridhar Nomula: I did str
+
+710
+01:30:58.700 --> 01:31:06.620
+Sridhar Nomula: with that number right Now let's look at the type of my new variable. What do you think will be the type of this new variable,
+
+711
+01:31:08.060 --> 01:31:09.729
+madhu sudhan reddy puppala: Probably the string?
+
+712
+01:31:09.740 --> 01:31:23.889
+JIANG LIU(za6417): Yeah. So it it, it becomes a string right? So you can convert. Take a series of You can convert any series of numbers to a string. Right string has all those characters.
+
+713
+01:31:24.750 --> 01:31:28.339
+Sridhar Nomula: Even one is a character. Two is a character. Zero is a character,
+
+714
+01:31:28.760 --> 01:31:36.960
+Sridhar Nomula: so you can easily convert that. But when you are converting the the other way around. You have a string, and you are converting it to a number.
+
+715
+01:31:37.410 --> 01:31:44.219
+Sridhar Nomula: If it's not a number in the string, then it throws an error; but if it's really a number, then it converts to a number.
+
+716
+01:31:44.830 --> 01:31:46.670
+Sridhar Nomula: Ah, yes, Jack.
+
+717
+01:31:47.480 --> 01:31:55.520
+JIANG LIU(za6417): Yeah. So um can you enlarge your various cold windows because one second one's a good.
+
+718
+01:31:55.890 --> 01:31:58.130
+Sridhar Nomula: Let me do this
+
+719
+01:31:59.960 --> 01:32:04.810
+Sridhar Nomula: hopefully. This will be better. Is that any better if I share like this?
+
+720
+01:32:05.030 --> 01:32:10.200
+JIANG LIU(za6417): No, I think it's a same. It's just that the family too small.
+
+721
+01:32:14.960 --> 01:32:18.869
+Sridhar Nomula: Okay, hold on a second. It got a better idea.
+
+722
+01:32:30.440 --> 01:32:36.109
+JIANG LIU(za6417): Let me know if this is any better. Let me minimize this. Is this any better?
+
+723
+01:32:36.490 --> 01:32:39.650
+JIANG LIU(za6417): Yeah, I think. Now, it's maybe bigger,
+
+724
+01:33:03.970 --> 01:33:04.790
+Sridhar Nomula: Okay,
+
+725
+01:33:04.800 --> 01:33:05.820
+JIANG LIU(za6417): better.
+
+726
+01:33:05.830 --> 01:33:06.590
+And thank you.
+
+727
+01:33:06.600 --> 01:33:08.070
+Sridhar Nomula: Okay already.
+
+728
+01:33:11.060 --> 01:33:25.020
+Sridhar Nomula: Yeah. So you can convert from string to integer or integer or to string, but make sure, you know, when you're converting string to an integer. It is really a number in that string
+
+729
+01:33:25.070 --> 01:33:26.809
+Sridhar Nomula: a string of characters.
+
+730
+01:33:29.580 --> 01:33:30.670
+Sridhar Nomula: Okay,
+
+731
+01:33:30.770 --> 01:33:32.840
+Sridhar Nomula: and now moving on.
+
+732
+01:33:32.910 --> 01:33:34.540
+Sridhar Nomula: But they're inspiring
+
+733
+01:33:35.490 --> 01:33:36.740
+Sridhar Nomula: share.
+
+734
+01:33:54.840 --> 01:34:05.590
+Sridhar Nomula: So if you look inside the string object, actually it is nothing but like a list. It is not exactly a list, but it is like a list, so
+
+735
+01:34:05.620 --> 01:34:09.880
+Sridhar Nomula: you can go through each element, each character.
+
+736
+01:34:10.380 --> 01:34:14.410
+Sridhar Nomula: Now you can. Let's say, Here you have
+
+737
+01:34:14.680 --> 01:34:22.330
+Sridhar Nomula: through the equals to banana, and the fruit is nothing but a string data type. It has the value
+
+738
+01:34:22.580 --> 01:34:23.800
+Sridhar Nomula: banana.
+
+739
+01:34:24.430 --> 01:34:29.489
+Sridhar Nomula: And now you can use like a list. You can say fruit
+
+740
+01:34:29.680 --> 01:34:34.430
+Sridhar Nomula: with the square braces, you can say one, and that gives the letter B.
+
+741
+01:34:35.480 --> 01:34:38.850
+Sorry one is the second element, so that gives the letter A.
+
+742
+01:34:38.910 --> 01:34:41.479
+Sridhar Nomula: It starts with the index is zero.
+
+743
+01:34:41.910 --> 01:34:57.780
+Sridhar Nomula: Okay, the first index is zero. It's a typically like a Java. So first index always starts with zero, and then it moves on, then zero, one, two, three, four, five, so that first element will be letter A.
+
+744
+01:35:02.380 --> 01:35:05.469
+Sridhar Nomula: Then when you're going to print letter, it's printing A,
+
+745
+01:35:05.650 --> 01:35:13.410
+Sridhar Nomula: so you can represent any string you can take it, and you can represent as an basis of a list,
+
+746
+01:35:13.640 --> 01:35:16.100
+Sridhar Nomula: and you can get any element.
+
+747
+01:35:17.640 --> 01:35:30.060
+Sridhar Nomula: So here Another example. Here X equals to three, and what this is doing is through the X minus one. Now excess, three K minus one becomes two.
+
+748
+01:35:30.100 --> 01:35:33.380
+Sridhar Nomula: Now that this becomes like a fruit.
+
+749
+01:35:35.040 --> 01:35:38.490
+Sridhar Nomula: Okay, now, forty, two is this is that element?
+
+750
+01:35:38.500 --> 01:35:41.839
+Sridhar Nomula: So that is n then it prints M.
+
+751
+01:35:48.740 --> 01:36:05.390
+Sridhar Nomula: So if you, if you save anything greater than the actual string length. Then it's going to give an error, because if you look at this as a list, there is no fifth element here in this example. So it it's going to say it's index out of range.
+
+752
+01:36:05.400 --> 01:36:13.069
+Sridhar Nomula: Yeah. So especially when you are referring to my bills, just be careful, you know which element number that you are referring to.
+
+753
+01:36:13.310 --> 01:36:31.160
+Sridhar Nomula: Um. Each string has a length. You can use a function called Lem. This is an inbuilt function in python, and you can use this length for various other data structures, and also for a string to or string. If you just say
+
+754
+01:36:31.170 --> 01:36:44.889
+Sridhar Nomula: len alien, well, and inside that function. If you just pass that string, it is going to give you the length of that particular string. So here is an example of using the L. And then branding that
+
+755
+01:36:44.900 --> 01:36:48.579
+Sridhar Nomula: the length that takes an input of a string and returns the
+
+756
+01:36:48.800 --> 01:36:59.879
+Sridhar Nomula: remember. In the last class we are talking about, written variable of the string. Right, a return type of the string. So this function is going to return something. It is going to return the length of the
+
+757
+01:36:59.910 --> 01:37:02.489
+Sridhar Nomula: A Bl: of that input? Yeah,
+
+758
+01:37:02.500 --> 01:37:04.320
+Sridhar Nomula: yes, somebody had a question
+
+759
+01:37:04.330 --> 01:37:10.570
+Yashavanth Shivapura Prabhudev: uh s profits Uh: what will be the type of that? Uh, you know. Uh letter?
+
+760
+01:37:16.690 --> 01:37:18.170
+Yashavanth Shivapura Prabhudev: Yeah
+
+761
+01:37:18.180 --> 01:37:19.990
+Yashavanth Shivapura Prabhudev: uh, It's a it's a number
+
+762
+01:37:20.000 --> 01:37:26.589
+Yashavanth Shivapura Prabhudev: as a in fruit, like a fruit of two is in right. What would be the type of in the
+
+763
+01:37:26.600 --> 01:37:29.709
+Sridhar Nomula: Yeah, Okay, let's say that a very good question. Yeah,
+
+764
+01:37:29.720 --> 01:37:33.189
+Yashavanth Shivapura Prabhudev: since Python Doesn't have character data type,
+
+765
+01:37:33.200 --> 01:37:39.320
+Sridhar Nomula: it's, it's. Still, if it's a single character or multiple characters, it is still a true
+
+766
+01:37:39.980 --> 01:37:41.090
+Oh, okay, sure.
+
+767
+01:37:41.100 --> 01:37:45.679
+Yashavanth Shivapura Prabhudev: Okay. So I had this.
+
+768
+01:37:58.550 --> 01:38:00.190
+Sridhar Nomula: Okay. So
+
+769
+01:38:00.750 --> 01:38:02.719
+Sridhar Nomula: here, if I say
+
+770
+01:38:03.090 --> 01:38:06.019
+Sridhar Nomula: my number and this
+
+771
+01:38:07.810 --> 01:38:10.339
+Sridhar Nomula: getting, I see my visual studio,
+
+772
+01:38:16.950 --> 01:38:20.570
+Yashavanth Shivapura Prabhudev: this returns number three. But what is the type of
+
+773
+01:38:22.590 --> 01:38:24.629
+Sridhar Nomula: it is still a string.
+
+774
+01:38:24.700 --> 01:38:27.439
+Sridhar Nomula: Okay. So in Python there is no
+
+775
+01:38:27.480 --> 01:38:34.540
+Sridhar Nomula: it's always a string. It's always a string. You know it breaks a single character or multiple characters.
+
+776
+01:38:42.970 --> 01:38:47.239
+Sridhar Nomula: This is further explaining length, function, and
+
+777
+01:38:47.440 --> 01:38:50.120
+Sridhar Nomula: this is interesting. So
+
+778
+01:38:50.730 --> 01:39:07.629
+Sridhar Nomula: this is again, we just learned loads, and here, using the loop and specifically here, using the while loop, remember our while Loop has an entry condition, and here it's using that entry condition. So to begin with this,
+
+779
+01:39:07.640 --> 01:39:14.929
+Sridhar Nomula: we have this same variable that we were working with the fruit. It's a value as banana, and we are starting with the
+
+780
+01:39:15.070 --> 01:39:23.599
+Sridhar Nomula: it indexes. So we are saying zero, and we are saying, while index less than length of fruit,
+
+781
+01:39:32.410 --> 01:39:37.999
+Sridhar Nomula: zero, one, two, three, four, five. So it is a length of six elements.
+
+782
+01:39:38.660 --> 01:39:47.590
+Sridhar Nomula: It is a length of six elements. So this while loop is going to go six times for the first time, it is going to get the
+
+783
+01:39:47.600 --> 01:39:57.280
+Sridhar Nomula: zero at the index. Remember, our list has. It starts with an index of zero. So fruit of zero gives B
+
+784
+01:39:57.460 --> 01:40:10.889
+Sridhar Nomula: and fruit of one gives a so. All it is doing is a printing that index and the letter within that string, and then incrementing that index here,
+
+785
+01:40:22.590 --> 01:40:40.089
+Sridhar Nomula: and instead of a while loop, adding all this logic you can simply use for loop. Also. Earlier we have seen an example where you said far I in some list right. You specifically mentioned that list.
+
+786
+01:40:40.100 --> 01:40:43.580
+Sridhar Nomula: Um going back here. Let's see.
+
+787
+01:40:49.390 --> 01:40:51.380
+Sridhar Nomula: Remember here, we said,
+
+788
+01:40:51.470 --> 01:40:58.070
+Sridhar Nomula: for a value in this list, right? This is also same thing.
+
+789
+01:40:59.440 --> 01:41:02.859
+This is also the same thing for a letter in fruit.
+
+790
+01:41:09.010 --> 01:41:11.010
+Sridhar Nomula: Yeah, that's what this means.
+
+791
+01:41:12.180 --> 01:41:26.099
+Sridhar Nomula: You don't have to split through the string. You don't have to go through index zero index one like that, you can simply say, for, Yeah. So you can do this matter also the for matter. Instead of doing like this
+
+792
+01:41:33.900 --> 01:41:40.280
+Sridhar Nomula: we have used this matter of counting right as we go through the loop. So here a similar thing
+
+793
+01:41:40.320 --> 01:41:41.540
+Sridhar Nomula: it's.
+
+794
+01:41:41.990 --> 01:42:01.790
+Sridhar Nomula: We are using the for loop to go through each character of the string, and what we are doing is we are just counting the letter a how many times a letter A appears right, so you can still use condition, and when I say for letter in word,
+
+795
+01:42:01.800 --> 01:42:11.199
+Sridhar Nomula: so my word is a variable which has this word banana. Again, this is a string, and when I say for letter in word,
+
+796
+01:42:11.210 --> 01:42:16.740
+Sridhar Nomula: that every iteration, this variable letter will have
+
+797
+01:42:16.900 --> 01:42:27.179
+Sridhar Nomula: either letter D or later, a or letter n, or letter a like that, right for each iteration. It gets its respective letter.
+
+798
+01:42:27.200 --> 01:42:39.410
+Sridhar Nomula: Now i'm i'm just checking. If the letter equals to a if it is a, then i'm incrementing the count. By the end of this slope I get the number of a's in that word
+
+799
+01:42:43.360 --> 01:42:44.460
+Sridhar Nomula: it's.
+
+800
+01:42:44.880 --> 01:42:48.030
+Sridhar Nomula: This is same thing that I just explain.
+
+801
+01:42:52.250 --> 01:43:06.090
+Sridhar Nomula: So you won't have to, you know, increment any indexes, anything like that. When you use for low you can just say for something in that string. Then it automatically goes through each character of that string.
+
+802
+01:43:06.100 --> 01:43:19.339
+Sridhar Nomula: Okay, there are more streaming operations that we can look to It's a very powerful uh, I don't think any other language offers this kind of uh, you know, capability on the string data types
+
+803
+01:43:19.390 --> 01:43:29.600
+Sridhar Nomula: in Java. If you have to do something like this, you have to write like time, fifteen lines, and then you'll get that element of the string.
+
+804
+01:43:29.830 --> 01:43:31.170
+Sridhar Nomula: It's
+
+805
+01:43:33.240 --> 01:43:46.570
+Sridhar Nomula: slice and dies that entire string, just like a like any list, you can do the same operation. So let's say you have a string, which is Monty Python.
+
+806
+01:43:46.890 --> 01:43:51.629
+Sridhar Nomula: Then you already, when you're slicing and dicing, you always have to
+
+807
+01:43:51.650 --> 01:43:53.999
+Sridhar Nomula: imagine this as a list
+
+808
+01:43:54.070 --> 01:43:56.689
+Sridhar Nomula: with each letter, each character
+
+809
+01:43:56.700 --> 01:44:07.899
+Sridhar Nomula: as a element in that list there is a space is also a character. Space is also a character. This is not an empty cell. This is a space character.
+
+810
+01:44:07.910 --> 01:44:15.509
+Sridhar Nomula: Okay. So now you can get the slides and dies in any way you want to by using the colon character
+
+811
+01:44:16.250 --> 01:44:27.239
+Sridhar Nomula: every time. Whenever you are um getting an element from the list, you use this square braces, right? These are the square braces.
+
+812
+01:44:27.450 --> 01:44:37.329
+Sridhar Nomula: So in this written square prices you give an index number, and this index number can be a range also. So here I am saying zero to four.
+
+813
+01:44:46.300 --> 01:44:54.379
+Sridhar Nomula: Okay, it is not including four, but exploded for up to four. Then it prints zero, one, two, three.
+
+814
+01:44:54.880 --> 01:44:56.820
+Sridhar Nomula: So it comes down.
+
+815
+01:44:57.100 --> 01:45:03.569
+Sridhar Nomula: Then here from six to seven. That means there is only one character that is T.
+
+816
+01:45:06.120 --> 01:45:11.360
+Sridhar Nomula: And while doing this slicing and dicing, you can omit the first
+
+817
+01:45:11.540 --> 01:45:22.810
+Sridhar Nomula: first index number when you're doing, especially these rangers. When you're doing these ranges you can permit the first or the last range. So
+
+818
+01:45:22.840 --> 01:45:30.329
+Sridhar Nomula: when I met the first range, it means start from the beginning. So here, in this example, when I say print S.
+
+819
+01:45:30.730 --> 01:45:32.870
+Sridhar Nomula: Col. And two, that means
+
+820
+01:45:32.970 --> 01:45:35.000
+Sridhar Nomula: from beginning zero
+
+821
+01:45:35.360 --> 01:45:36.650
+Sridhar Nomula: up to
+
+822
+01:45:37.820 --> 01:45:40.190
+Sridhar Nomula: okay, then it just goes up to
+
+823
+01:45:40.200 --> 01:45:41.559
+Sridhar Nomula: two characters,
+
+824
+01:45:41.800 --> 01:45:46.770
+Sridhar Nomula: Then same thing Begin with eight, then go all the way to the end.
+
+825
+01:45:51.650 --> 01:46:00.729
+Sridhar Nomula: Is your Omid beginning and ending that it means that the entire string right? It automatically takes that default to the beginning before the end.
+
+826
+01:46:21.850 --> 01:46:22.920
+Sridhar Nomula: Okay.
+
+827
+01:46:25.030 --> 01:46:27.989
+Sridhar Nomula: Now, remember, we have seen in
+
+828
+01:46:28.280 --> 01:46:38.300
+Sridhar Nomula: that, you know, in in our previous example. How did we use this in our previous examples? If you see here, how did we use in
+
+829
+01:46:42.580 --> 01:46:49.790
+Sridhar Nomula: what happens here when I say for van you in three. This entire list what happens here?
+
+830
+01:46:49.800 --> 01:46:56.040
+Yaswant Bharadwaj Valluri: Just so. It takes as a Boolean if it is to it goes through the loop. If it's false. It Doesn't:
+
+831
+01:46:56.610 --> 01:46:59.179
+Sridhar Nomula: Right? Yeah, it takes as a billion
+
+832
+01:46:59.190 --> 01:47:03.099
+Sridhar Nomula: uh yes, on the do. You still have a question, or your handra is from before?
+
+833
+01:47:06.960 --> 01:47:19.040
+Yaswant Bharadwaj Valluri: Um. So yeah, So it takes it returns definitely a Boolean in this first structure it is also assigning to this
+
+834
+01:47:19.170 --> 01:47:20.690
+Sridhar Nomula: value this variable.
+
+835
+01:47:20.700 --> 01:47:21.639
+Okay.
+
+836
+01:47:21.650 --> 01:47:27.150
+Sridhar Nomula: Now, coming back here, there is another way to use this. That is,
+
+837
+01:47:28.900 --> 01:47:46.800
+Sridhar Nomula: you can use in as a conditional statement here pure conditional statement. Yeah, you are not assigning anything you are not doing for n in. You can just simply say n in a fraud, and it is going to return a Boolean value. That is true or false.
+
+838
+01:47:47.250 --> 01:47:53.480
+Sridhar Nomula: So we have here for that same value that we have been carrying over banana.
+
+839
+01:47:53.840 --> 01:48:07.589
+Sridhar Nomula: And you say, this character n. Is that in food, then it is going to return. True. And if i'm saying this character, M. In fruit, it is not in the throat. Yeah,
+
+840
+01:48:07.700 --> 01:48:18.449
+Sridhar Nomula: if you see this food, there's nothing, even though it is a string. But it is a list of characters. Yeah. So that's what it is going to do is M. In that list of characters,
+
+841
+01:48:19.430 --> 01:48:30.910
+Sridhar Nomula: and you can do not in the single character you can do multiple characters. This is also a string. This is also a string. So you are checking this entire string is inside fruit.
+
+842
+01:48:30.920 --> 01:48:33.920
+Sridhar Nomula: Yeah, N. A. N. Is there in banana,
+
+843
+01:48:33.940 --> 01:48:43.010
+Sridhar Nomula: right? And you can write your conditional statements like this, you know, if condition or any other conditional statements. You can just say
+
+844
+01:48:43.070 --> 01:48:49.180
+Sridhar Nomula: if a character or string is inside a string. Now you can simply
+
+845
+01:48:49.250 --> 01:48:51.389
+Sridhar Nomula: of geological conditions.
+
+846
+01:48:51.400 --> 01:49:11.369
+Sridhar Nomula: It's very easy to, you know. Do something like this in Python makes it very easy for you. Otherwise, if you are familiar with other programming languages, you know, you might have to use some built in functions, or go through the string, split that string into a single character, and then check each character, and then try to do
+
+847
+01:49:24.120 --> 01:49:36.009
+Sridhar Nomula: this is a very straightforward comparison. Right? You have this a variable, which has a something in that, and then you are comparing it to a string and saying, is this equal
+
+848
+01:49:37.380 --> 01:49:50.299
+Sridhar Nomula: equal? Is this equal? Yeah. So it is going to. If it is exactly equal, that is, every character is the same, then it is going to be satisfied. This condition this becomes a true
+
+849
+01:49:50.430 --> 01:50:05.960
+Sridhar Nomula: okay. But you can also do other comparison. Operators like less than greater than those things are also. You can do what this is going to do. This less than greater than is based on the as a character value.
+
+850
+01:50:06.470 --> 01:50:10.229
+Sridhar Nomula: Every if you see any of these uh
+
+851
+01:50:10.730 --> 01:50:14.490
+Sridhar Nomula: characters in the string. Those are as a characters.
+
+852
+01:50:14.500 --> 01:50:32.629
+Sridhar Nomula: Most of the Ascii characters are keyboard characters. There are some non- keyboard characters. Also you can look at as a chart. Each character has a number, you know. That's how Computer knows that. Maybe you know to shed some light. Here, let me say
+
+853
+01:50:39.980 --> 01:50:42.170
+Sridhar Nomula: anyone heard asking.
+
+854
+01:50:44.030 --> 01:50:46.690
+Yashavanth Shivapura Prabhudev: Yes, Okay.
+
+855
+01:50:46.700 --> 01:50:55.089
+Anton Zyarko: Yes. Um. Yeah. So each character has a number. It has a decimal number, you know, hex, number and all that.
+
+856
+01:50:56.700 --> 01:51:09.880
+Sridhar Nomula: So each character has the number. So that's how Computer knows that. And the computer stores that in a decimal in a decimal value, right? That is zero, one one zero, something something right,
+
+857
+01:51:09.890 --> 01:51:16.390
+Sridhar Nomula: an eight bits number. So this six is stored in Edwards number, then it knows this is
+
+858
+01:51:16.730 --> 01:51:30.170
+Sridhar Nomula: acknowledgment, character. It is not A. C. K. Three characters, but it is one character acknowledgment, you know. For example, if you come to this capital letter A. It's as a number as a sixty, five.
+
+859
+01:51:30.180 --> 01:51:31.230
+Sridhar Nomula: It's
+
+860
+01:51:31.360 --> 01:51:45.399
+Sridhar Nomula: it's asking Number Six by again. This sixty five is stored in a binary format in the memory. When you say x equals to sixty five does a computer What that is going to do, is it?
+
+861
+01:51:45.800 --> 01:51:48.640
+Sridhar Nomula: If you say X equals to
+
+862
+01:51:48.670 --> 01:51:56.510
+Sridhar Nomula: a later in, then it is going to store that letter A. As a binary format of sixty, five in the memory,
+
+863
+01:51:58.870 --> 01:52:02.529
+Sridhar Nomula: and I can let go a little bit into this. So
+
+864
+01:52:02.880 --> 01:52:05.550
+a P. Of this how it stores.
+
+865
+01:52:06.240 --> 01:52:16.960
+Sridhar Nomula: It is a binary number. That means on that particular, you know, on the hardware it is zero, one one zero, something something right, that means zero means there is No,
+
+866
+01:52:27.570 --> 01:52:28.679
+Sridhar Nomula: he's.
+
+867
+01:52:36.450 --> 01:52:38.190
+Sridhar Nomula: Let's take a bit.
+
+868
+01:52:42.100 --> 01:52:43.250
+Sridhar Nomula: Okay,
+
+869
+01:52:43.290 --> 01:52:47.899
+Sridhar Nomula: So you can do a lot of those system. Comparisons? Yes, and tone.
+
+870
+01:52:49.620 --> 01:52:55.729
+Anton Zyarko: Yes, right, professor, so is it comparing the first letter Ascii character? Or is it aggregating it?
+
+871
+01:53:02.980 --> 01:53:09.390
+Sridhar Nomula: And if to for this to become true, it is comparing every character it's the first character
+
+872
+01:53:23.660 --> 01:53:25.640
+Sridhar Nomula: far they did that girl.
+
+873
+01:53:26.000 --> 01:53:28.300
+Sridhar Nomula: Okay, So let's say a word.
+
+874
+01:53:28.640 --> 01:53:29.840
+It's going to.
+
+875
+01:53:34.840 --> 01:53:38.050
+Sridhar Nomula: Okay. So this is my word. Okay?
+
+876
+01:53:39.940 --> 01:53:44.249
+Sridhar Nomula: And is this banana
+
+877
+01:53:44.450 --> 01:53:46.989
+Sridhar Nomula: greater than this banana.
+
+878
+01:53:47.000 --> 01:53:55.110
+Anton Zyarko: Let's see. So it starts comparing this B to whatever this value is the same as this value right? It is same,
+
+879
+01:53:55.150 --> 01:54:04.609
+Sridhar Nomula: then it's the same. It's the same that until it comes to this end Character Sorry what happened? I wanted to put this as a capital n it out of it.
+
+880
+01:54:07.330 --> 01:54:15.589
+Sridhar Nomula: Yeah. So now, when it comes to this character, this capital n value and this small n value is different.
+
+881
+01:54:15.600 --> 01:54:24.369
+Anton Zyarko: Yeah, the ask a value is different, which one is greater. I think a small n is greater if we come here,
+
+882
+01:54:24.490 --> 01:54:25.190
+Sridhar Nomula: it's
+
+883
+01:54:25.200 --> 01:54:32.150
+Sridhar Nomula: yes, it small, n the value is one one, and capital n value is seventy, eight.
+
+884
+01:54:32.540 --> 01:54:35.240
+Sridhar Nomula: Okay, so small n is bigger,
+
+885
+01:54:36.160 --> 01:54:38.089
+Sridhar Nomula: all right. So
+
+886
+01:54:39.340 --> 01:54:44.550
+Sridhar Nomula: so this condition satisfies this banana is the less than this banana.
+
+887
+01:54:44.560 --> 01:54:46.990
+Anton Zyarko: Okay, makes sense. Thank you.
+
+888
+01:54:47.000 --> 01:54:47.880
+Talk to you
+
+889
+01:54:50.880 --> 01:54:55.320
+Sridhar Nomula: all right. Um, And it also has a lot of um
+
+890
+01:54:55.450 --> 01:55:10.590
+Sridhar Nomula: built-in functions in there a lot of built-in functions that you Don't have to write everything from scratch to figure out some of the string operations. For example, I want to convert this entire string to lowercase.
+
+891
+01:55:11.200 --> 01:55:14.460
+Sridhar Nomula: There is a method already built in for you.
+
+892
+01:55:14.580 --> 01:55:16.940
+Sridhar Nomula: This mattered. So
+
+893
+01:55:17.210 --> 01:55:22.739
+Sridhar Nomula: again, this is string all the way are saying string data type. It is an object.
+
+894
+01:55:23.310 --> 01:55:40.909
+Sridhar Nomula: Ah, we won't go into object oriented programming in this class. But just a little bit over you. For you to understand is object has data type and some methods embedded in it. Okay. So if you see this Creator,
+
+895
+01:55:40.960 --> 01:55:43.140
+Sridhar Nomula: let me go back to
+
+896
+01:55:43.300 --> 01:55:45.170
+Sridhar Nomula: my visual studio.
+
+897
+01:55:45.300 --> 01:55:47.780
+Sridhar Nomula: I need to share that screen. Then.
+
+898
+01:55:53.940 --> 01:55:57.710
+Sridhar Nomula: So if you see this. This is a string data type, right?
+
+899
+01:56:06.260 --> 01:56:12.320
+Sridhar Nomula: And this string data type. If i'm trying to put the type, it is a class of string.
+
+900
+01:56:12.530 --> 01:56:26.839
+Sridhar Nomula: Okay, that means this is an object, This my number is a string object, and it has many functions embedded in it. So now I can say my number, daughter.
+
+901
+01:56:27.070 --> 01:56:38.900
+Sridhar Nomula: Hopefully, this works here Okay, and my number daughter lower. I can do something like this, and that becomes lower anyways. It is number. So I will show an example,
+
+902
+01:56:43.050 --> 01:56:44.909
+and so my name.
+
+903
+01:56:45.620 --> 01:56:47.490
+Sridhar Nomula: And here,
+
+904
+01:56:50.740 --> 01:56:52.830
+Sridhar Nomula: Okay, now,
+
+905
+01:56:55.910 --> 01:56:59.440
+Sridhar Nomula: I say my name dot lower. Then it returns the
+
+906
+01:56:59.530 --> 01:57:06.010
+Sridhar Nomula: lowercase of that particular string and all the helper functions that are available,
+
+907
+01:57:06.110 --> 01:57:13.440
+Sridhar Nomula: that string they don't change the value of the string. So if you look at my name, it is still uppercase.
+
+908
+01:57:14.870 --> 01:57:19.790
+Sridhar Nomula: It always a returns or something. It doesn't change the original value. Okay,
+
+909
+01:57:19.800 --> 01:57:37.699
+Sridhar Nomula: these are all built in functions. They do not modify the original string. Instead, they return the new string, and there is a concept called some of the you said, You mean, you know, Pandas and a helper function has most of the helper functions. They have a parameter in place.
+
+910
+01:57:37.710 --> 01:57:41.029
+Sridhar Nomula: That means, do I change this data home or it? And the new date after
+
+911
+01:57:41.460 --> 01:57:47.019
+Sridhar Nomula: this is something like that. That is it doesn't change that the actual?
+
+912
+01:57:57.970 --> 01:58:07.319
+Sridhar Nomula: How do you see? What are all the different functions available on that particular object? You can just do data function, Bir. So
+
+913
+01:58:08.440 --> 01:58:09.719
+Sridhar Nomula: it's.
+
+914
+01:58:13.320 --> 01:58:20.910
+Sridhar Nomula: So this is my My name is a string, right? Remember, my name is a string, and if I do,
+
+915
+01:58:21.580 --> 01:58:37.340
+Sridhar Nomula: I know that okay lower function is there, but there are various other functions that are embedded in that object. So if I do say I have a lot of objects here. So a lot of functions here, and I
+
+916
+01:58:37.350 --> 01:58:53.419
+Sridhar Nomula: let's focus on functions which doesn't start with underscore. Okay, So this is finding the functions, and there is a format function index function. This is telling. If my string is out for numerical,
+
+917
+01:58:53.940 --> 01:58:59.190
+Sridhar Nomula: or if this is, is Alpha, that means is everything is uh
+
+918
+01:58:59.510 --> 01:59:03.620
+Sridhar Nomula: uh, everything is letters, or there are there any numbers
+
+919
+01:59:04.820 --> 01:59:09.359
+Sridhar Nomula: he's as he's just checking? If everything is asked the character,
+
+920
+01:59:14.030 --> 01:59:21.900
+Sridhar Nomula: is it a decimal? Is it a They say, Yeah, a lot of different how it or functions are there. There is a
+
+921
+01:59:22.620 --> 01:59:28.959
+Sridhar Nomula: split functions, you know. There are strict functions. We'll go through some of them today.
+
+922
+01:59:29.370 --> 01:59:30.490
+Sridhar Nomula: Okay,
+
+923
+01:59:30.970 --> 01:59:32.820
+Sridhar Nomula: any questions.
+
+924
+01:59:36.120 --> 01:59:40.379
+Sridhar Nomula: Let me go back to shade in my presentation.
+
+925
+01:59:44.620 --> 01:59:51.470
+Sridhar Nomula: So all these different functions you can do various different operations, for example, replace is
+
+926
+01:59:51.600 --> 02:00:01.289
+Sridhar Nomula: taking that old string that you have, and replacing the new string in some way within that
+
+927
+02:00:01.300 --> 02:00:02.250
+Sridhar Nomula: straight,
+
+928
+02:00:02.550 --> 02:00:06.110
+Sridhar Nomula: then i'll find it is finding the
+
+929
+02:00:06.150 --> 02:00:10.120
+Sridhar Nomula: character. So you are saying, This is your substring. So
+
+930
+02:00:10.160 --> 02:00:19.710
+Sridhar Nomula: our find takes a string. Yeah, which is a substring and a surge in that string from beginning to the end.
+
+931
+02:00:20.840 --> 02:00:24.590
+Sridhar Nomula: But orphan is going to start from the right side.
+
+932
+02:00:24.690 --> 02:00:42.390
+Sridhar Nomula: Okay, and our index is all the same thing. Returning the index That means at which element is that string. Our find is going to return the true or false. Our index is going to return that index number in that string, you know.
+
+933
+02:00:42.570 --> 02:00:44.300
+Sridhar Nomula: And then
+
+934
+02:00:44.500 --> 02:00:49.060
+Sridhar Nomula: this are just as it returned the string right justified.
+
+935
+02:00:49.680 --> 02:00:53.789
+Sridhar Nomula: And that means if it has um anything. Or
+
+936
+02:00:53.800 --> 02:01:04.359
+Sridhar Nomula: let's say you have three character string, and you wanted it to be four character and filled with something else. You can do that with. Just let's say
+
+937
+02:01:04.530 --> 02:01:09.800
+Sridhar Nomula: you know you have a string, and you want to put zeros to the end. You can do our just
+
+938
+02:01:10.010 --> 02:01:14.849
+Sridhar Nomula: um. Our partition is splitting the string,
+
+939
+02:01:14.890 --> 02:01:20.710
+Sridhar Nomula: you know, based on this separator. Then our split is also a similar thing so,
+
+940
+02:01:20.750 --> 02:01:39.469
+Sridhar Nomula: but our partition returns a tuple in the next class. We will learn what triple means. Our split is also going to return, but it is going to. It is going to split the string, but it is going to return the list of strings.
+
+941
+02:01:43.400 --> 02:01:55.460
+Sridhar Nomula: So the string library has various different functions we can explore. You know many of them like like I said, when you do there, and that
+
+942
+02:01:55.710 --> 02:02:05.349
+Sridhar Nomula: and that particular variable, that string variable, you'll get all different functions used in that available in that string.
+
+943
+02:02:11.230 --> 02:02:24.200
+Sridhar Nomula: So you want to search in a string right? So this is a use case of searching through the string. But remember, earlier we did go through each element of the stream
+
+944
+02:02:24.210 --> 02:02:38.440
+Sridhar Nomula: um to find a particular character, or we went through each element of the string to find the number of A's. So here this is actually finding something in the string you can just use. Find the method.
+
+945
+02:02:39.110 --> 02:02:55.110
+Sridhar Nomula: So you have your string variable. Then you say, string the door to find, and in within that open, close parentheses you give your string that you are trying to find, and it will return that position
+
+946
+02:03:06.610 --> 02:03:14.430
+Sridhar Nomula: again. Remember, this is in the string. The position. The first letter is a Zeroth position,
+
+947
+02:03:14.710 --> 02:03:17.030
+Sridhar Nomula: so you just need to remember that.
+
+948
+02:03:18.320 --> 02:03:35.549
+Sridhar Nomula: And there is an upper function Also, if you want. If you have a string of characters, a string and you want to come, you know, convert that whole thing into uppercase. You can use upper function. We have seen lower function just now.
+
+949
+02:03:35.560 --> 02:03:51.940
+Sridhar Nomula: We just do string that variable name dot lower. Then it converts that to lower it doesn't change the original string, so the greater the value and the grid will be still like this format it doesn't change that. But it returns a new value,
+
+950
+02:03:51.970 --> 02:03:53.490
+Sridhar Nomula: which is the
+
+951
+02:04:00.350 --> 02:04:17.790
+Sridhar Nomula: Then there are a lot of string replace functions also, you know you have you? You might have used, you know string replacing your text. Editor: Ah, occurrence of this character request with something else. Right? That is exactly like this programmatically. Now you can write your program to do that.
+
+952
+02:04:18.390 --> 02:04:22.780
+Sridhar Nomula: So this you know, lot of search and reckless functions are there
+
+953
+02:04:23.180 --> 02:04:31.990
+Sridhar Nomula: again. What you do is you take your variable name, Dot, and you have this replace function.
+
+954
+02:04:32.660 --> 02:04:33.590
+Sridhar Nomula: He's,
+
+955
+02:04:33.600 --> 02:04:35.440
+Sridhar Nomula: and your place
+
+956
+02:04:35.880 --> 02:04:40.200
+Sridhar Nomula: something with something else. So here in this uh
+
+957
+02:04:44.920 --> 02:04:46.219
+Sridhar Nomula: it's,
+
+958
+02:04:46.470 --> 02:04:54.439
+kavyavempati: Then this new string has. Hello, James of Hollow Board. Yeah, but your greed is still going to have a low bomb.
+
+959
+02:04:54.620 --> 02:04:55.950
+Sridhar Nomula: It's a variable.
+
+960
+02:04:58.280 --> 02:05:04.080
+Sridhar Nomula: And here, in this example, we were replacing that entire
+
+961
+02:05:04.310 --> 02:05:17.899
+Sridhar Nomula: string. You know, multiple characters with this new string, and here it is one character you're pressing it another character. But again, this is the same thing. This is also a string for python.
+
+962
+02:05:21.170 --> 02:05:32.429
+Sridhar Nomula: Then there are strip functions which is, you know, very common in many languages. The strip function, is it stripping something from the end from any one end. So you have
+
+963
+02:05:33.110 --> 02:05:37.390
+Sridhar Nomula: all strip or right are strip or strip.
+
+964
+02:05:37.400 --> 02:05:43.539
+Sridhar Nomula: Okay. So airstrip, mainly stripped from the left side, are strictly stripped from the right side
+
+965
+02:05:43.590 --> 02:05:58.360
+Sridhar Nomula: by default. It is going to strip that a space character, you know. When I say L step it is going to strip that space character. When I say our strip, it is going to strip that space character from the
+
+966
+02:05:58.640 --> 02:06:02.319
+Sridhar Nomula: Actually, this is a little bit
+
+967
+02:06:02.690 --> 02:06:09.140
+Sridhar Nomula: um when I say else, Tib, it, it should strip from the left side when it's A.
+
+968
+02:06:10.480 --> 02:06:13.709
+Sridhar Nomula: I said it should be utterly around like this
+
+969
+02:06:23.550 --> 02:06:25.000
+Sridhar Nomula: J. Like this,
+
+970
+02:06:25.010 --> 02:06:26.510
+Sridhar Nomula: and when he says
+
+971
+02:06:26.700 --> 02:06:34.609
+Sridhar Nomula: this simple strip, then it is going to strip the space characters from the beginning and the end of that.
+
+972
+02:06:35.820 --> 02:06:36.960
+Sridhar Nomula: It's.
+
+973
+02:06:39.670 --> 02:06:41.710
+Sridhar Nomula: Then what else?
+
+974
+02:06:45.520 --> 02:06:49.439
+Sridhar Nomula: And there are these other functions it starts with,
+
+975
+02:06:49.460 --> 02:06:53.070
+Sridhar Nomula: and there is also ends with function Two. That is the
+
+976
+02:06:53.190 --> 02:06:57.089
+Sridhar Nomula: just checking the prefix or postfix of that string.
+
+977
+02:06:57.100 --> 02:07:04.400
+Sridhar Nomula: Yeah. So it starts with means it is going to check if your string starts with this string that is passed to the function.
+
+978
+02:07:05.670 --> 02:07:24.459
+Sridhar Nomula: Right? So here in this line, where i'm saying line is my variable. It has this entire string. And here I'm saying, line a dot starts with, and i'm passing something to this function. I'm passing this another string which is,
+
+979
+02:07:24.480 --> 02:07:26.649
+Sridhar Nomula: please, which has the one in place,
+
+980
+02:07:32.380 --> 02:07:37.919
+Sridhar Nomula: starts with place, and it is going to return true or false
+
+981
+02:07:44.030 --> 02:07:45.790
+Anton Zyarko: because it's our case.
+
+982
+02:07:45.900 --> 02:07:55.080
+Anton Zyarko: Yeah, because it is lowercase. So remember it is case sensitive. The value as your value of this one is different from the
+
+983
+02:07:57.160 --> 02:07:58.670
+Sridhar Nomula: and you can
+
+984
+02:07:58.900 --> 02:08:10.540
+Sridhar Nomula: parts and extract. You know you can do like within one line. You can do a lot of uh string functions um, and do a lot of a string extraction also.
+
+985
+02:08:10.590 --> 02:08:13.029
+Sridhar Nomula: So here, in this example,
+
+986
+02:08:14.550 --> 02:08:30.200
+Sridhar Nomula: here in this example, what it is trying to do is, take this entire string, which is one line, and it is trying to find hat assign. So what we are trying to do is in this: We are trying to find the posting.
+
+987
+02:08:30.330 --> 02:08:38.200
+Sridhar Nomula: Okay in this line. I have from someone their email addresses there at what time this email is received.
+
+988
+02:08:38.760 --> 02:08:48.519
+Sridhar Nomula: And now i'm trying to write a program where i'm trying to find Where is this host name from? Is this an internal email, or it next to me? Maybe i'm trying to find that.
+
+989
+02:08:49.310 --> 02:08:52.070
+Sridhar Nomula: So how do I find that I need to get the host in.
+
+990
+02:08:52.080 --> 02:08:53.780
+Sridhar Nomula: How do I get the host name?
+
+991
+02:08:54.620 --> 02:09:11.529
+Sridhar Nomula: So in this line get to the at sign, and anything after Ed assign until the next space happens because in the host name there is no space. If the space comes, that means that's the end of the post name, then something else is starting after that.
+
+992
+02:09:11.560 --> 02:09:18.959
+Sridhar Nomula: So now i'm trying to look for anything in between this. Okay, So how do I do this one? I can do
+
+993
+02:09:19.050 --> 02:09:32.950
+Sridhar Nomula: the multiple iterations of doing different functions. Then I can extract this particular string, that host name. So what's happening here? I have my string here, and i'm using the find function to find at the
+
+994
+02:09:33.510 --> 02:09:35.259
+Sridhar Nomula: not where to find, and
+
+995
+02:09:35.270 --> 02:09:36.949
+then that gives me
+
+996
+02:09:37.130 --> 02:09:40.280
+Sridhar Nomula: that time position twenty-one.
+
+997
+02:09:40.410 --> 02:09:47.890
+Sridhar Nomula: Okay, now, I have this position twenty-one. Then Now I need to find a space character.
+
+998
+02:09:47.900 --> 02:09:51.880
+Sridhar Nomula: Okay. But where do I start as a search?
+
+999
+02:09:52.150 --> 02:09:55.889
+Sridhar Nomula: Let me start the search from the position that I
+
+1000
+02:09:55.900 --> 02:09:59.679
+Sridhar Nomula: where the add sign is there. So from here
+
+1001
+02:09:59.870 --> 02:10:04.540
+Sridhar Nomula: now I have this number twenty one, which is the index of add sign,
+
+1002
+02:10:04.690 --> 02:10:06.419
+Sridhar Nomula: I'm. Twenty one.
+
+1003
+02:10:06.740 --> 02:10:11.620
+Sridhar Nomula: Keep going until and find the space character and give me that position.
+
+1004
+02:10:12.450 --> 02:10:15.729
+Sridhar Nomula: Okay, that position is thirty one.
+
+1005
+02:10:15.740 --> 02:10:23.289
+Sridhar Nomula: Now, I know this beginning, position and end position. Now, remember, we can slice this string
+
+1006
+02:10:23.540 --> 02:10:27.550
+Sridhar Nomula: right? We can slice and get a piece of that string.
+
+1007
+02:10:27.600 --> 02:10:38.170
+Sridhar Nomula: So here you can say that starting position plus one, because we don't want at sign we want after that X sign, so we say it in position, plus one
+
+1008
+02:10:38.780 --> 02:10:42.860
+Sridhar Nomula: till that end. Position. The end position is the space character position.
+
+1009
+02:10:43.330 --> 02:10:48.300
+Sridhar Nomula: Now, What is it? What do they get? Volla? They get this horse's name?
+
+1010
+02:10:49.120 --> 02:10:52.600
+Sridhar Nomula: Okay, any questions on this? How day do we do this?
+
+1011
+02:10:56.240 --> 02:10:57.349
+Sridhar Nomula: Okay.
+
+1012
+02:10:58.670 --> 02:10:59.880
+Sridhar Nomula: So
+
+1013
+02:11:00.910 --> 02:11:05.120
+Sridhar Nomula: strings are aigorous single codes, or double hertz
+
+1014
+02:11:06.090 --> 02:11:09.019
+Sridhar Nomula: before the python three.
+
+1015
+02:11:09.230 --> 02:11:12.340
+Sridhar Nomula: This string data type was there
+
+1016
+02:11:12.430 --> 02:11:13.600
+Sridhar Nomula: it's, it's, it's, it's it's it's it's it's it's it's it's it's it's it's it's, it's it's
+
+1017
+02:11:24.570 --> 02:11:36.649
+Sridhar Nomula: everything is a class. You are int as a class. Your string is a class, so everything is an object. Yeah, but before that in Python two point seven version. These were
+
+1018
+02:11:36.680 --> 02:11:47.390
+Sridhar Nomula: um data types, internal data types you call you can call them internal data types. So int um or string. You know, those were the data types.
+
+1019
+02:11:58.740 --> 02:12:01.230
+Sridhar Nomula: Internally, it constructs an object.
+
+1020
+02:12:01.410 --> 02:12:03.359
+Sridhar Nomula: Yeah, Any questions so far.
+
+1021
+02:12:07.850 --> 02:12:26.439
+Sridhar Nomula: Okay. So that is about. I think that's the end of our lecture. So we learned so much about strings in the in-built functions. String is nothing but a series of characters in a list, and you can look through those characters.
+
+1022
+02:12:26.450 --> 02:12:35.370
+Sridhar Nomula: We also learned about all the in-built functions. You know you can do some string comparisons and string, search, replace
+
+1023
+02:12:35.670 --> 02:12:37.500
+Sridhar Nomula: all these different things.
+
+1024
+02:12:37.650 --> 02:12:38.820
+Sridhar Nomula: It's.
+
+1025
+02:12:39.720 --> 02:12:48.730
+Sridhar Nomula: I want to go into the lab, you know whatever we learned. Let's put that into practice. Yeah, let's put that into practice. Let's try to move these
+
+1026
+02:12:49.060 --> 02:12:50.800
+Sridhar Nomula: it does.
+
+1027
+02:12:51.160 --> 02:12:55.239
+Um. What we will do is our first exercise is,
+
+1028
+02:12:56.360 --> 02:12:59.899
+Sridhar Nomula: I want to explain before going to this first exercise.
+
+1029
+02:13:11.470 --> 02:13:14.620
+Sridhar Nomula: Can you all see my visual studio screen.
+
+1030
+02:13:16.800 --> 02:13:19.139
+Sridhar Nomula: Yes, okay,
+
+1031
+02:13:19.230 --> 02:13:37.319
+Amy Xu(Jiahui Xu: iz4838): yes, there is a function called Eva, and with Eval, what you can do is you can evaluate any python expression, any Python X. It's not python code. By the way, you can evaluate any python expression. Let's say,
+
+1032
+02:13:41.850 --> 02:13:52.049
+Sridhar Nomula: Okay, this is an expression. What Python is doing? Is it? Is taking that string. It is evaluating, and it is doing one plus two. Ok, This equals to three. It returns through.
+
+1033
+02:13:52.930 --> 02:13:56.349
+Sridhar Nomula: I can do the same. Let's say I have a string,
+
+1034
+02:13:56.600 --> 02:13:58.819
+Sridhar Nomula: one plus two,
+
+1035
+02:13:59.090 --> 02:14:00.840
+Sridhar Nomula: and I enter.
+
+1036
+02:14:01.180 --> 02:14:06.970
+Sridhar Nomula: It takes that string. It evaluates that string and gives me the output Three
+
+1037
+02:14:07.610 --> 02:14:09.950
+Akshat Verma: um let's uh
+
+1038
+02:14:10.020 --> 02:14:11.219
+Akshat Verma: who is one here.
+
+1039
+02:14:11.800 --> 02:14:14.889
+JIANG LIU(za6417): Let's say my X value is one. Okay,
+
+1040
+02:14:14.900 --> 02:14:17.159
+Sridhar Nomula: My, why value is stone
+
+1041
+02:14:17.550 --> 02:14:24.210
+Sridhar Nomula: x plus one? Sorry x plus y. What is that? That is three,
+
+1042
+02:14:24.730 --> 02:14:28.239
+Sridhar Nomula: because x is one, Y is two x plus y is three,
+
+1043
+02:14:28.860 --> 02:14:33.270
+Sridhar Nomula: and if I do x plus y,
+
+1044
+02:14:41.760 --> 02:14:42.920
+Sridhar Nomula: this,
+
+1045
+02:14:44.060 --> 02:14:46.310
+Sridhar Nomula: yeah, it has to be a string,
+
+1046
+02:14:46.500 --> 02:14:49.090
+Sridhar Nomula: and if I do like this
+
+1047
+02:14:49.940 --> 02:14:51.050
+Sridhar Nomula: check
+
+1048
+02:14:58.200 --> 02:15:08.190
+Sridhar Nomula: you can do any type of python expression, not a python code, but python expression. Right? So these are all expressions.
+
+1049
+02:15:15.980 --> 02:15:17.379
+Sridhar Nomula: I'm sorry
+
+1050
+02:15:17.820 --> 02:15:19.139
+Sridhar Nomula: for
+
+1051
+02:15:19.750 --> 02:15:21.940
+JIANG LIU(za6417): minus two.
+
+1052
+02:15:23.980 --> 02:15:25.010
+JIANG LIU(za6417): He's.
+
+1053
+02:15:25.400 --> 02:15:26.689
+Sridhar Nomula: It evaluates an expression.
+
+1054
+02:15:27.310 --> 02:15:30.300
+Sridhar Nomula: Now why did I explain this?
+
+1055
+02:15:31.280 --> 02:15:33.430
+Sridhar Nomula: Why, Don't, I explain this? Let's come here.
+
+1056
+02:15:36.810 --> 02:15:40.710
+Sridhar Nomula: So now what you are going to do is take an input from the user
+
+1057
+02:15:40.750 --> 02:15:44.469
+Sridhar Nomula: Okay, write a program where you are taking an input from the
+
+1058
+02:15:44.570 --> 02:15:58.589
+Sridhar Nomula: and the user is going to enter a python expression. Don't: worry about If this is valid, input anything like that, just for this exercise, assume that you as a User: giving the valid python expression.
+
+1059
+02:15:58.600 --> 02:15:59.570
+Sridhar Nomula: Okay,
+
+1060
+02:15:59.860 --> 02:16:06.960
+Sridhar Nomula: you use that eval function to evaluate that expression and to print out the result of the user
+
+1061
+02:16:16.960 --> 02:16:19.179
+Sridhar Nomula: until user enters
+
+1062
+02:16:19.960 --> 02:16:22.089
+Sridhar Nomula: any of these characters,
+
+1063
+02:16:23.190 --> 02:16:25.879
+Sridhar Nomula: any of the done character,
+
+1064
+02:16:26.260 --> 02:16:28.230
+Sridhar Nomula: any of the downstream,
+
+1065
+02:16:28.560 --> 02:16:31.470
+Sridhar Nomula: Yuki continued. Keep taking the input,
+
+1066
+02:16:35.879 --> 02:16:36.789
+Sridhar Nomula: he's
+
+1067
+02:16:37.170 --> 02:16:42.970
+Sridhar Nomula: generous. Let's start with that exercise. Let's see how it working. We can go with that exercise.
+
+1068
+02:16:49.750 --> 02:16:52.110
+Sridhar Nomula: Anyone have any questions on that,
+
+1069
+02:17:11.870 --> 02:17:15.470
+Sridhar Nomula: or you're all working, not working. I don't know if you don't respond.
+
+1070
+02:17:18.600 --> 02:17:21.750
+Jeremiah Ross: Yes, I can really uh the exercise. Okay,
+
+1071
+02:17:21.990 --> 02:17:24.799
+Sridhar Nomula: yeah, they're working on it. So
+
+1072
+02:17:25.450 --> 02:17:27.219
+Sridhar Nomula: thanks for that response.
+
+1073
+02:18:01.520 --> 02:18:05.119
+Sridhar Nomula: If anyone have any questions, just feel free to ask me.
+
+1074
+02:21:27.530 --> 02:21:28.699
+It's
+
+1075
+02:22:46.190 --> 02:22:48.449
+Sridhar Nomula: just work with the symbol.
+
+1076
+02:23:21.580 --> 02:23:22.770
+Sridhar Nomula: Yes,
+
+1077
+02:23:23.130 --> 02:23:25.640
+Sridhar Nomula: somebody has to question barriers.
+
+1078
+02:23:25.650 --> 02:23:31.070
+Bala Surya Teja Nandamuri: Yes, actually, this is regarding the doubt for the project, I mean the assignment.
+
+1079
+02:23:31.170 --> 02:23:53.560
+Bala Surya Teja Nandamuri: So in the So you said we had, we have to allocate the whole time. So my question is, if it's supposed uh or non-eligible employ for the over time as well for forty-two. As so we'll be getting the pay for forty hours, or should we calculate for fourteen years twenty, four forty has so we we should ignore the only pay for the rest, we ask for
+
+1080
+02:23:53.630 --> 02:24:01.320
+Sridhar Nomula: right. Exactly. Their maximum pay is forty hours, so that we make this clear. And what question is a very good question
+
+1081
+02:24:48.740 --> 02:24:50.750
+Bala Surya Teja Nandamuri: occasionally. Yes.
+
+1082
+02:24:53.620 --> 02:24:55.289
+Sridhar Nomula: Okay, Don't. Uh:
+
+1083
+02:24:55.300 --> 02:24:58.100
+Sridhar Nomula: okay, Somebody send them a message. Okay,
+
+1084
+02:24:58.150 --> 02:24:59.949
+Sridhar Nomula: that's a That's a
+
+1085
+02:25:05.320 --> 02:25:07.039
+Bala Surya Teja Nandamuri: Okay.
+
+1086
+02:25:07.050 --> 02:25:23.800
+Sridhar Nomula: Um. So Bishw: Which it you send. Ah, some code. So that's good. But, um! I would say, instead of doing multiple conditions in your if statement see if you can use it, some string functions that we already learned it today.
+
+1087
+02:25:24.990 --> 02:25:26.579
+kq3242_VishwajitBhosale: Okay, Okay, This:
+
+1088
+02:26:19.780 --> 02:26:20.920
+Okay,
+
+1089
+02:26:20.930 --> 02:26:23.070
+Sridhar Nomula: Yeah. So
+
+1090
+02:26:23.300 --> 02:26:27.190
+Sridhar Nomula: you know where I tell it, Kumar.
+
+1091
+02:26:27.440 --> 02:26:29.459
+Sridhar Nomula: Since i'm a sailor, Jack,
+
+1092
+02:26:30.070 --> 02:26:31.600
+Sridhar Nomula: What is that?
+
+1093
+02:26:44.370 --> 02:26:47.809
+Sridhar Nomula: Okay, I see you. I see you on the
+
+1094
+02:26:59.110 --> 02:27:01.330
+Sridhar Nomula: Let me look at commercial.
+
+1095
+02:27:06.460 --> 02:27:10.039
+Sridhar Nomula: Yeah, Kumar, Do you have to do less than
+
+1096
+02:27:10.400 --> 02:27:14.139
+Sridhar Nomula: do you really have to do this thing or equal sign over there.
+
+1097
+02:27:14.320 --> 02:27:15.360
+Sridhar Nomula: It's
+
+1098
+02:27:15.460 --> 02:27:17.070
+Sridhar Nomula: just check on that
+
+1099
+02:27:20.760 --> 02:27:24.200
+Sridhar Nomula: and someone else also fire. And
+
+1100
+02:27:28.750 --> 02:27:30.430
+Sridhar Nomula: to the
+
+1101
+02:27:30.440 --> 02:27:33.840
+Sridhar Nomula: three like A. For your code. Do you really have to have it
+
+1102
+02:27:34.120 --> 02:27:37.320
+Sridhar Nomula: a condition to get into your loop,
+
+1103
+02:27:39.800 --> 02:27:50.319
+Sridhar Nomula: or can you do your loop without condition like an excursion condition? Can you always enter? Because if you look at this
+
+1104
+02:28:13.830 --> 02:28:15.360
+Sridhar Nomula: when you me,
+
+1105
+02:28:16.470 --> 02:28:20.209
+Sridhar Nomula: Karthy Khan, saying something, let me say,
+
+1106
+02:28:22.800 --> 02:28:25.019
+Sridhar Nomula: Yeah, that looks good. Yeah,
+
+1107
+02:28:59.320 --> 02:29:02.270
+Sridhar Nomula: I can explain what the task door is
+
+1108
+02:29:07.040 --> 02:29:11.869
+Sridhar Nomula: so. Yes, and um looks good. But
+
+1109
+02:29:12.920 --> 02:29:18.859
+Sadvilas Buddiga: small suggestion, you know, instead of doing those multiple conditions to break the low,
+
+1110
+02:29:19.050 --> 02:29:24.050
+Sridhar Nomula: can you use some string function and then figure out how to maintain the load.
+
+1111
+02:29:32.160 --> 02:29:41.630
+Yaswant Bharadwaj Valluri: In fact, what I was saying in this is any case. I I just give three possible combinations, but it could be like this also user can enter,
+
+1112
+02:29:43.800 --> 02:29:47.400
+Sridhar Nomula: user can enter like this any case in sensor to search.
+
+1113
+02:29:48.350 --> 02:29:52.059
+Yaswant Bharadwaj Valluri: No, or you want to ask me about it. I'll do that.
+
+1114
+02:30:05.640 --> 02:30:08.389
+Sridhar Nomula: The Fibonacci series is a
+
+1115
+02:30:30.030 --> 02:30:33.969
+Sridhar Nomula: I will show an example of
+
+1116
+02:30:35.600 --> 02:30:37.119
+Sridhar Nomula: of the
+
+1117
+02:30:42.020 --> 02:30:43.830
+Sridhar Nomula: If you are at the State.
+
+1118
+02:31:00.350 --> 02:31:02.459
+Sridhar Nomula: Can you guys still here?
+
+1119
+02:31:04.130 --> 02:31:08.000
+Yaswant Bharadwaj Valluri: Yes? Well, so we can hear you in somebody desk phone.
+
+1120
+02:31:08.010 --> 02:31:10.150
+Anton Zyarko: Yes, if you are audible, sir.
+
+1121
+02:31:11.840 --> 02:31:13.450
+Sridhar Nomula: Oh, I cannot hear that
+
+1122
+02:31:15.310 --> 02:31:16.650
+Sridhar Nomula: now. I can give you that.
+
+1123
+02:31:17.850 --> 02:31:20.009
+Sridhar Nomula: Can somebody play? Speak up?
+
+1124
+02:31:22.480 --> 02:31:24.990
+Yaswant Bharadwaj Valluri: Oh, yes,
+
+1125
+02:31:25.000 --> 02:31:26.790
+Yaswant Bharadwaj Valluri: thank you. Thank you. Yeah.
+
+1126
+02:31:26.800 --> 02:31:29.030
+Sridhar Nomula: But I just have to switch my headphones
+
+1127
+02:31:30.730 --> 02:31:31.820
+Sridhar Nomula: so
+
+1128
+02:31:34.380 --> 02:31:36.130
+it's it's,
+
+1129
+02:31:40.980 --> 02:31:42.020
+Sridhar Nomula: monsieur.
+
+1130
+02:31:49.860 --> 02:31:52.330
+Sridhar Nomula: So this is a Fibonacci series
+
+1131
+02:32:04.070 --> 02:32:07.509
+Sridhar Nomula: is zero. Then you go to one of the
+
+1132
+02:32:08.410 --> 02:32:12.290
+Sridhar Nomula: one plus zero is one one plus zero is one,
+
+1133
+02:32:12.390 --> 02:32:13.659
+the of the next.
+
+1134
+02:32:16.620 --> 02:32:18.529
+Sridhar Nomula: They didn't get it at all.
+
+1135
+02:32:19.120 --> 02:32:20.199
+Sridhar Nomula: The Ch.
+
+1136
+02:32:21.030 --> 02:32:26.590
+Sridhar Nomula: So you are at most of the zoom, or one, two, three, four, five, six, seven, and
+
+1137
+02:32:26.600 --> 02:32:27.710
+okay,
+
+1138
+02:32:28.030 --> 02:32:29.680
+Sridhar Nomula: that is your
+
+1139
+02:32:30.010 --> 02:32:31.340
+Sridhar Nomula: numbers
+
+1140
+02:32:32.030 --> 02:32:33.300
+from zero to one.
+
+1141
+02:32:34.480 --> 02:32:47.849
+Sridhar Nomula: The Fibonacci of rule is so in the it's always adding the previous sum. So here zero is always zero. Then you go to one one plus zero is one.
+
+1142
+02:32:48.200 --> 02:32:50.859
+Sridhar Nomula: Uh, then you go to the next one.
+
+1143
+02:32:50.910 --> 02:32:53.389
+Sridhar Nomula: This is actually expanding those.
+
+1144
+02:33:42.220 --> 02:33:46.730
+Sridhar Nomula: So let's start from here. So one is
+
+1145
+02:33:46.910 --> 02:33:53.919
+Sridhar Nomula: one. Then in the first summation is also one, then we will want the one plus one is two,
+
+1146
+02:33:54.140 --> 02:34:02.840
+Sridhar Nomula: then it put it as one as three, then three plus two is five, then five is three is eight, and so it is always adding the famous number.
+
+1147
+02:34:04.120 --> 02:34:07.590
+Sridhar Nomula: Then you've got eight, eight, plus five is thirty. Okay,
+
+1148
+02:34:07.600 --> 02:34:12.420
+Sridhar Nomula: So that is the Fibonacci series. Okay. So going back to,
+
+1149
+02:34:13.200 --> 02:34:14.630
+Sridhar Nomula: for example,
+
+1150
+02:34:15.270 --> 02:34:19.979
+Sridhar Nomula: this exercise here, so you can hear the Fibonacci Series
+
+1151
+02:34:20.000 --> 02:34:31.559
+Sridhar Nomula: and we'll take that limit, you know, because it is infinite. It can keep going So up to where you want to calculate your financial service. So you ask that input, to the user
+
+1152
+02:34:32.080 --> 02:34:39.710
+Sridhar Nomula: and you calculate that financial series and print that series. So let's say, if my
+
+1153
+02:34:41.880 --> 02:34:43.959
+Sridhar Nomula: let's say, if I say,
+
+1154
+02:34:45.040 --> 02:34:52.440
+Sridhar Nomula: okay, if the user. Enters phone, then you go up to four people they start from zero, one, two, three, four,
+
+1155
+02:34:52.710 --> 02:34:54.110
+Sridhar Nomula: and then you can't live.
+
+1156
+02:35:00.430 --> 02:35:01.610
+Sridhar Nomula: And here
+
+1157
+02:35:08.370 --> 02:35:10.539
+Sridhar Nomula: any combination of the discount
+
+1158
+02:35:18.490 --> 02:35:20.379
+Sridhar Nomula: Let me check my chat. No,
+
+1159
+02:35:21.600 --> 02:35:22.699
+Sridhar Nomula: push them.
+
+1160
+02:35:48.690 --> 02:35:49.780
+Sridhar Nomula: It's.
+
+1161
+02:35:58.390 --> 02:36:05.810
+Sridhar Nomula: And you might find examples on the Internet. For a single accessories. Please, Don't, just copy past them. Try to write your own code,
+
+1162
+02:36:06.300 --> 02:36:09.879
+so that I want to this. This This is like an exercise to of mine.
+
+1163
+02:38:12.310 --> 02:38:17.120
+Sridhar Nomula: Is there everyone finished with the task? Number one, Anyone that's still working on tasks a month
+
+1164
+02:39:02.230 --> 02:39:03.960
+Sridhar Nomula: for different models.
+
+1165
+02:39:05.790 --> 02:39:07.869
+Sridhar Nomula: But there and some are on schedule of you know
+
+1166
+02:39:20.070 --> 02:39:21.250
+Sridhar Nomula: he
+
+1167
+02:39:25.110 --> 02:39:26.180
+Sridhar Nomula: it was.
+
+1168
+02:39:26.610 --> 02:39:27.949
+Sridhar Nomula: Ask Paul.
+
+1169
+02:39:44.550 --> 02:39:45.570
+Sridhar Nomula: Okay.
+
+1170
+02:39:45.580 --> 02:39:46.930
+Sridhar Nomula: So
+
+1171
+02:39:47.560 --> 02:39:49.809
+it's a straightforward right song.
+
+1172
+02:39:50.760 --> 02:39:54.459
+Sridhar Nomula: You can write it while the true to enter into your loan.
+
+1173
+02:39:54.480 --> 02:39:56.510
+Sridhar Nomula: We don't have to put any
+
+1174
+02:39:57.220 --> 02:39:58.720
+conditions.
+
+1175
+02:39:59.640 --> 02:40:01.110
+Sridhar Nomula: I will listen,
+
+1176
+02:40:03.100 --> 02:40:05.039
+which is also fine.
+
+1177
+02:40:06.770 --> 02:40:10.450
+Sridhar Nomula: Some of you are wondering what everything is you have taken name, but before the line
+
+1178
+02:40:13.770 --> 02:40:14.840
+Sridhar Nomula: expression
+
+1179
+02:40:15.880 --> 02:40:17.000
+Sridhar Nomula: it this,
+
+1180
+02:40:20.850 --> 02:40:28.510
+Sridhar Nomula: then, you're putting a condition. Here is this, it's to any form of done right.
+
+1181
+02:40:29.750 --> 02:40:31.639
+Sridhar Nomula: So I will say
+
+1182
+02:40:32.190 --> 02:40:38.240
+Sridhar Nomula: like that right? Because anyways, you have to take the input the first import.
+
+1183
+02:40:38.340 --> 02:40:41.349
+Sridhar Nomula: So why don't you get into the loop and take the first. Input
+
+1184
+02:40:42.520 --> 02:40:45.260
+Sridhar Nomula: Now, then, you verify
+
+1185
+02:40:45.670 --> 02:40:47.150
+Sridhar Nomula: It's there.
+
+1186
+02:40:47.180 --> 02:40:50.270
+Sridhar Nomula: If it is done, any form of done,
+
+1187
+02:40:50.520 --> 02:40:54.010
+Sridhar Nomula: and some of you here. What we have done is,
+
+1188
+02:40:54.200 --> 02:40:57.420
+Sridhar Nomula: instead of using this inbuilt function,
+
+1189
+02:40:57.710 --> 02:41:01.950
+Sridhar Nomula: you did all these different combinations that some of you did like this.
+
+1190
+02:41:02.750 --> 02:41:03.850
+Sridhar Nomula: The Xp.
+
+1191
+02:41:05.620 --> 02:41:07.250
+Sridhar Nomula: Then, of
+
+1192
+02:41:08.620 --> 02:41:09.830
+all this different packaging
+
+1193
+02:41:10.010 --> 02:41:24.929
+Sridhar Nomula: means from doing that? Why, don't you convert that into either a lowercase or upper case, and you compare with the direct case that way that you don't have to worry is the first letter and over the case; second, that the upper key is more than anything,
+
+1194
+02:41:26.350 --> 02:41:28.309
+Sridhar Nomula: so you can send it through like this.
+
+1195
+02:41:29.360 --> 02:41:35.680
+Sridhar Nomula: I did lower some of you I have seen you did that. That is also fine. If you do upload,
+
+1196
+02:41:35.970 --> 02:41:39.239
+Sridhar Nomula: then make sure you are comparing the upper.
+
+1197
+02:41:39.340 --> 02:41:40.389
+Sridhar Nomula: It's great.
+
+1198
+02:41:41.410 --> 02:41:42.530
+Sridhar Nomula: Okay?
+
+1199
+02:41:42.850 --> 02:41:47.409
+Sridhar Nomula: And that's why, whatever you're in for, you are seeing if it is done, character in the first,
+
+1200
+02:41:47.690 --> 02:41:51.609
+Sridhar Nomula: it is the second character it is for
+
+1201
+02:41:52.370 --> 02:41:53.400
+Sridhar Nomula: that's for you.
+
+1202
+02:41:57.020 --> 02:42:00.999
+Sridhar Nomula: If it is done, then you want to break the load. Yeah, that's the first,
+
+1203
+02:42:01.980 --> 02:42:03.470
+Sridhar Nomula: and
+
+1204
+02:42:04.180 --> 02:42:14.130
+Sridhar Nomula: I sometimes I do. You know everything in one line. So that's what I did. I did the print. I did the era, and then I give my expression.
+
+1205
+02:42:14.340 --> 02:42:18.860
+Sridhar Nomula: Okay, um. You can do like this also. Some of you have done
+
+1206
+02:42:19.780 --> 02:42:21.260
+Sridhar Nomula: the reserve
+
+1207
+02:42:22.240 --> 02:42:23.510
+Sridhar Nomula: equals
+
+1208
+02:42:24.840 --> 02:42:26.480
+Sridhar Nomula: expression,
+
+1209
+02:42:27.190 --> 02:42:30.979
+Sridhar Nomula: And then we were trying to train to that. Okay, that is also
+
+1210
+02:42:37.390 --> 02:42:38.789
+Sridhar Nomula: any questions on the site.
+
+1211
+02:42:47.390 --> 02:42:49.970
+Sridhar Nomula: I'm going to be speaking, but I can up here.
+
+1212
+02:42:50.690 --> 02:42:52.590
+Sridhar Nomula: Is anyone speaking
+
+1213
+02:42:54.570 --> 02:42:55.800
+on the wall.
+
+1214
+02:42:55.810 --> 02:42:58.390
+Ajith Narasimha: What's the cost of life?
+
+1215
+02:43:03.790 --> 02:43:06.780
+Sridhar Nomula: I'm ready any other questions
+
+1216
+02:43:07.760 --> 02:43:09.010
+Sridhar Nomula: with Chand.
+
+1217
+02:43:09.220 --> 02:43:12.899
+Sridhar Nomula: Yeah. Some of you are doing your Fibonacci series.
+
+1218
+02:43:13.130 --> 02:43:14.360
+Sridhar Nomula: I'm going to
+
+1219
+02:43:14.500 --> 02:43:16.030
+Sridhar Nomula: the truck's word
+
+1220
+02:43:54.220 --> 02:44:04.990
+Sridhar Nomula: Um, there is um. That Fibonacci series calculation looks good. But you don't have a move to keep taking the input, from the user So you just look into the
+
+1221
+02:44:05.000 --> 02:44:07.229
+Dheeraj Kashyap Varanasi: do it. I Then
+
+1222
+02:44:33.760 --> 02:44:35.330
+Sridhar Nomula: it's it's mine
+
+1223
+02:44:47.500 --> 02:44:49.410
+Sridhar Nomula: is the second to ask.
+
+1224
+02:45:21.940 --> 02:45:29.650
+Sridhar Nomula: So it's already nine hundred and forty-one. I want to address any more questions. You can keep continue doing these exercises at home.
+
+1225
+02:45:30.140 --> 02:45:34.640
+Sridhar Nomula: I can upload this exercises. I mean, this is live.
+
+1226
+02:45:37.920 --> 02:45:38.940
+Sridhar Nomula: It's it's it's
+
+1227
+02:45:39.030 --> 02:45:45.230
+Sridhar Nomula: um you can continue with this exiles. I want to take this time, and that's and more questions.
+
+1228
+02:45:58.330 --> 02:45:59.570
+Any question.
+
+1229
+02:46:03.270 --> 02:46:07.550
+Sridhar Nomula: Okay, Remember, I want to share a couple of things here.
+
+1230
+02:46:22.050 --> 02:46:26.850
+Sridhar Nomula: So this is the homework. Remember, you need to submit a python file,
+
+1231
+02:46:27.250 --> 02:46:28.330
+Sridhar Nomula: and
+
+1232
+02:46:29.100 --> 02:46:30.949
+Sridhar Nomula: I also want a document
+
+1233
+02:46:36.400 --> 02:46:41.520
+Sridhar Nomula: under that over section we will find a way to submit your homework. Okay,
+
+1234
+02:46:41.530 --> 02:46:43.690
+Then you attach these two files.
+
+1235
+02:46:43.700 --> 02:46:45.599
+Sridhar Nomula: Remember to name you all
+
+1236
+02:46:45.900 --> 02:46:47.020
+Sridhar Nomula: homeworks appropriate
+
+1237
+02:46:47.680 --> 02:46:48.729
+Sridhar Nomula: in the
+
+1238
+02:46:49.830 --> 02:46:54.820
+Sridhar Nomula: and i'm repeating this instruction because I have seen many times as to and miss
+
+1239
+02:46:55.030 --> 02:47:01.510
+Sridhar Nomula: instruction, they sent some other file. Then I will have difficulty to track your homework.
+
+1240
+02:47:02.760 --> 02:47:03.940
+Sridhar Nomula: So please
+
+1241
+02:47:05.090 --> 02:47:06.169
+Sridhar Nomula: right, maybe one.
+
+1242
+02:47:07.060 --> 02:47:11.290
+Sridhar Nomula: And uh about this, you know.
+
+1243
+02:47:11.520 --> 02:47:15.660
+Now it's more clear. I will upload this, you know whatever I guess i'm here.
+
+1244
+02:47:15.770 --> 02:47:24.039
+Sridhar Nomula: If the employees not eligible for over time pay, then their maximum hours is forty,
+
+1245
+02:47:25.240 --> 02:47:27.030
+Sridhar Nomula: if you are entitled
+
+1246
+02:47:27.250 --> 02:47:38.379
+Sridhar Nomula: thirty-nine, and then thirty-nine times that period, if you under forty forty times that period. If you enter forty-one it's still forty hours, if you end up forty-three, it's still
+
+1247
+02:47:38.660 --> 02:47:41.030
+Sridhar Nomula: because they won't be able to get paid up to some
+
+1248
+02:47:42.250 --> 02:47:43.560
+Sridhar Nomula: dexter
+
+1249
+02:47:44.970 --> 02:47:47.889
+Sridhar Nomula: that's How this over time ends up with them.
+
+1250
+02:47:48.070 --> 02:47:49.119
+It's a very
+
+1251
+02:47:55.050 --> 02:47:56.340
+Sridhar Nomula: for balance. Now,
+
+1252
+02:47:56.370 --> 02:48:01.110
+Sridhar Nomula: one more thing I wanted to address is your homework. One is zoom
+
+1253
+02:48:01.510 --> 02:48:05.990
+Sridhar Nomula: on August, the thirtieth that is this coming tuesday.
+
+1254
+02:48:06.080 --> 02:48:09.810
+Sridhar Nomula: It is due by midnight. Eleven, fifty-nine. Pm.
+
+1255
+02:48:09.870 --> 02:48:16.710
+Sridhar Nomula: But please don't wait until eleven, fifty-nine Pm. And then trying to submit, and
+
+1256
+02:48:16.740 --> 02:48:26.329
+Sridhar Nomula: then next today. You say, Professor, I missed one minute and I submitted it for one that is still considered as a made submission.
+
+1257
+02:48:27.050 --> 02:48:29.059
+Sridhar Nomula: So please please make sure that
+
+1258
+02:48:29.390 --> 02:48:30.449
+submit on time.
+
+1259
+02:48:30.700 --> 02:48:31.750
+Okay.
+
+1260
+02:48:32.720 --> 02:48:36.670
+Sridhar Nomula: And if you have already submitted that that's wonderful.
+
+1261
+02:48:37.190 --> 02:48:39.400
+Sridhar Nomula: But i'll start grading
+
+1262
+02:48:40.130 --> 02:48:41.970
+Sridhar Nomula: deadline.
+
+1263
+02:48:43.360 --> 02:48:50.249
+Sridhar Nomula: Yeah, um. Somebody is asking if I can do this homework in Jupiter. Not but
+
+1264
+02:48:50.480 --> 02:48:58.390
+Sridhar Nomula: you may be able to. But uh figure out how you can submit as a python file. Okay, so
+
+1265
+02:49:08.980 --> 02:49:16.030
+Sridhar Nomula: um, i'm. Then I cannot just directly assume Python three space that
+
+1266
+02:49:16.830 --> 02:49:18.860
+Sridhar Nomula: so please make sure that you
+
+1267
+02:49:19.070 --> 02:49:21.650
+Sridhar Nomula: send it as a dot pi file,
+
+1268
+02:49:22.440 --> 02:49:24.180
+Sridhar Nomula: even if you are losing to the table.
+
+1269
+02:49:25.200 --> 02:49:28.589
+Jani Pasha Mohammed: Yeah, we have an option to download the file as a dot by.
+
+1270
+02:49:28.600 --> 02:49:31.689
+Sridhar Nomula: Yeah. Yeah. So just make sure that you don't.
+
+1271
+02:49:32.410 --> 02:49:33.969
+Jani Pasha Mohammed: Thank you.
+
+1272
+02:49:40.590 --> 02:49:42.910
+Sridhar Nomula: Okay, professional.
+
+1273
+02:49:43.750 --> 02:49:47.789
+madhu sudhan reddy puppala: I just uh got some quality regarding this as on my
+
+1274
+02:49:49.190 --> 02:49:52.670
+madhu sudhan reddy puppala: when you please to scroll down the thing,
+
+1275
+02:49:53.510 --> 02:49:55.059
+madhu sudhan reddy puppala: go to the assembly.
+
+1276
+02:49:55.080 --> 02:49:57.220
+madhu sudhan reddy puppala: I I can do my
+
+1277
+02:49:57.990 --> 02:49:59.979
+madhu sudhan reddy puppala: that table, the table thing
+
+1278
+02:50:00.160 --> 02:50:01.190
+it's
+
+1279
+02:50:10.330 --> 02:50:11.380
+Sridhar Nomula: here.
+
+1280
+02:50:11.450 --> 02:50:17.499
+madhu sudhan reddy puppala: Uh. So if we give over time by user and like forty-four hours,
+
+1281
+02:50:17.510 --> 02:50:18.490
+it's
+
+1282
+02:50:37.340 --> 02:50:40.699
+um disregarding completely if they are entering more hours
+
+1283
+02:50:41.350 --> 02:51:01.000
+Sridhar Nomula: Now i'm disregarding and and I am asking for again. I just include the while Loop, and asking for to enter less than forty or forty, so I would say not to do like that. So even if they are entering more than forty hours
+
+1284
+02:51:01.010 --> 02:51:03.759
+Sridhar Nomula: just to take the forty hours as maximum.
+
+1285
+02:51:04.170 --> 02:51:07.029
+Sridhar Nomula: Okay, just print like forty hours away.
+
+1286
+02:51:07.040 --> 02:51:09.390
+Sridhar Nomula: Yeah. Print like forty hours.
+
+1287
+02:51:09.400 --> 02:51:10.910
+madhu sudhan reddy puppala: Okay? Okay, Thank you.
+
+1288
+02:51:14.360 --> 02:51:17.909
+Yoshika Chowdary Talasila: Any other questions. So I am my article.
+
+1289
+02:51:29.100 --> 02:51:31.289
+Yoshika Chowdary Talasila: Get screenshots and put it in word.
+
+1290
+02:51:31.520 --> 02:51:33.589
+Sridhar Nomula: Yeah, I want two things.
+
+1291
+02:51:34.100 --> 02:51:37.190
+Sridhar Nomula: One is the P by five,
+
+1292
+02:51:37.200 --> 02:51:39.210
+and the second is the word document.
+
+1293
+02:51:39.220 --> 02:51:39.990
+Sridhar Nomula: Okay,
+
+1294
+02:51:40.000 --> 02:51:53.119
+Yoshika Chowdary Talasila: Okay. And the thing is like for all the three Icmg and the other one also. Uh, should we even run the program for more than forty hours also,
+
+1295
+02:51:53.980 --> 02:51:59.129
+Yoshika Chowdary Talasila: or just a one positive case in each of these categories? Just one instead of
+
+1296
+02:52:27.110 --> 02:52:30.730
+Yoshika Chowdary Talasila: Do you want us to do it for more than forty hours? Also like that?
+
+1297
+02:52:30.740 --> 02:52:50.419
+Yoshika Chowdary Talasila: No need to, no need to just do all the positive cases. I will definitely test for the negative test cases also. Okay, uh, but, uh, you test your program as much as possible, But you attach the screenshots. You don't need to attach like one hundred screenshots,
+
+1298
+02:52:50.430 --> 02:52:57.990
+Sridhar Nomula: because there are various different possibilities here. Just only check. It is in positive cases, and we attach those controls.
+
+1299
+02:53:18.330 --> 02:53:21.589
+Yoshika Chowdary Talasila: I'll do the screenshot and also attach to your work.
+
+1300
+02:53:21.600 --> 02:53:24.089
+Sridhar Nomula: Yes, yeah, Do the screenshot. Okay,
+
+1301
+02:53:29.290 --> 02:53:31.390
+Yoshika Chowdary Talasila: Not not all of the
+
+1302
+02:53:31.400 --> 02:53:34.020
+Sridhar Nomula: uh. I would be looking for
+
+1303
+02:53:35.980 --> 02:53:37.889
+six eight screenshots.
+
+1304
+02:53:37.900 --> 02:53:41.390
+Sridhar Nomula: Okay, all of this. So I see employee level. One:
+
+1305
+02:53:41.400 --> 02:53:43.770
+Yoshika Chowdary Talasila: Yeah, Yeah, I get that.
+
+1306
+02:53:44.340 --> 02:53:51.639
+Yoshika Chowdary Talasila: Hi, Professor, Would you please go back to the exercise slide so that I can take a picture of them and work up to the class.
+
+1307
+02:53:51.650 --> 02:53:52.770
+Amy Xu(Jiahui Xu: iz4838): Thank you.
+
+1308
+02:53:55.540 --> 02:53:56.890
+Amy Xu(Jiahui Xu: iz4838): Got it, Thank you.
+
+1309
+02:53:56.900 --> 02:53:57.780
+Sridhar Nomula: It's
+
+1310
+02:53:58.310 --> 02:54:00.070
+Sridhar Nomula: all that anything else
+
+1311
+02:54:00.080 --> 02:54:08.989
+Anton Zyarko: the Professor just want to make sure starts as an obvious question. But screenshots of the console right like in Spider or Mm-hmm Okay, Good.
+
+1312
+02:54:09.000 --> 02:54:22.129
+Anton Zyarko: Yeah. Thank you for the console. Yeah, yeah, either it's a spider or you're using visual studio or uh terminal or your command. Prom: that's fine. All I need to see is your exhibition. Your
+
+1313
+02:54:22.280 --> 02:54:24.380
+Anton Zyarko: Okay, Take it
+
+1314
+02:54:26.900 --> 02:54:29.069
+Sridhar Nomula: all there. Any other questions.
+
+1315
+02:54:35.670 --> 02:54:46.980
+Sridhar Nomula: Okay, It's ten before ten. Um. I I think we have done end of learning today. I want you all to digest this information and start working on your phone. But
+
+1316
+02:54:47.110 --> 02:54:58.649
+Sridhar Nomula: okay, or any of the class exercises that you have not done. Please work on that that way you get hang of how to write your loops, how to write your conditions within the lows,
+
+1317
+02:54:58.690 --> 02:55:01.559
+Sridhar Nomula: and also using various string functions.
+
+1318
+02:55:06.830 --> 02:55:08.919
+Sridhar Nomula: Any other questions, folks.
+
+1319
+02:55:09.360 --> 02:55:17.479
+Mahnoor Tahir: No, it's been a pleasure, sir, thank you already. I can stay with you and have any questions otherwise this class has done
+
+1320
+02:55:17.780 --> 02:55:18.590
+Sridhar Nomula: for nights.
+
+1321
+02:55:18.600 --> 02:55:20.689
+Sumadhuri Jalakam Devarajulu: Thank you, sir. Thank you, bye, bye,
+
+1322
+02:55:20.700 --> 02:55:22.329
+Karthikeyan Velusamy ( NF4606): Thank you, bye, bye,
+
+1323
+02:55:24.880 --> 02:55:26.119
+Sumadhuri Jalakam Devarajulu: I think
+
+1324
+02:55:45.550 --> 02:55:46.610
+madhu sudhan reddy puppala: no
+
+1325
+02:55:46.740 --> 02:55:47.990
+madhu sudhan reddy puppala: hypervisor.
+
+1326
+02:55:48.000 --> 02:55:49.690
+Sridhar Nomula: Yes, I have a question.
+
+1327
+02:55:49.700 --> 02:55:52.579
+madhu sudhan reddy puppala: Yeah, I already have some meter that's online with
+
+1328
+02:55:52.590 --> 02:55:54.389
+madhu sudhan reddy puppala: what I mentioned before, So
+
+1329
+02:55:54.400 --> 02:55:57.990
+madhu sudhan reddy puppala: can I change it and resubmit up the second mode.
+
+1330
+02:55:58.000 --> 02:56:00.649
+Sridhar Nomula: Yeah, you will have the second attempt, so you can go back.
+
+1331
+02:56:00.790 --> 02:56:01.690
+It's up to you.
+
+1332
+02:56:01.700 --> 02:56:02.920
+Sridhar Nomula: Yeah, ship
+
+1333
+02:56:03.550 --> 02:56:04.780
+Sridhar Nomula: Todd.
+
